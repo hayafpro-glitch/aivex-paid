@@ -1,1304 +1,672 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="ar">
 <head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W5PF8KX59"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-W5PF8KX59');
-</script>
-
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="أيفيكس | AIVEX">
-<script>
-(function(){
-  var m={name:"أيفيكس | AIVEX — مدير الجلسة الذكي",short_name:"AIVEX",start_url:".",display:"standalone",background_color:"#06070D",theme_color:"#C9A84C",icons:[{src:"https://i.postimg.cc/J45gyPpT/20260626-085952.jpg",sizes:"192x192",type:"image/jpeg",purpose:"any maskable"},{src:"https://i.postimg.cc/J45gyPpT/20260626-085952.jpg",sizes:"512x512",type:"image/jpeg",purpose:"any maskable"}]};
-  try{var b=new Blob([JSON.stringify(m)],{type:'application/json'});var l=document.createElement('link');l.rel='manifest';l.href=URL.createObjectURL(b);document.head.appendChild(l);}catch(e){var fl=document.createElement('link');fl.rel='manifest';fl.href='manifest.json';document.head.appendChild(fl);}
-})();
-</script>
-<link rel="apple-touch-icon" href="https://i.postimg.cc/J45gyPpT/20260626-085952.jpg">
-<link rel="icon" type="image/jpeg" href="https://i.postimg.cc/J45gyPpT/20260626-085952.jpg">
-<meta name="theme-color" content="#C9A84C">
-<meta name="msapplication-TileImage" content="https://i.postimg.cc/J45gyPpT/20260626-085952.jpg">
-<meta name="msapplication-TileColor" content="#06070D">
-<title>أيفيكس | 𝘼𝙄𝙑𝙀𝙓 — مدير الجلسة الذكي</title>
-<meta content="أيفيكس | AIVEX — مدير جلسات التداول الذكي لمتداولي الخيارات الثنائية. تتبع رصيدك، إدارة المخاطر، وتحليل أداء جلساتك." name="description"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Tajawal:wght@400;500;700;800&family=Orbitron:wght@700;900&display=swap" rel="stylesheet"/>
-
+<title>أيفيكس | AIVEX — شراء مباشر</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800&family=Orbitron:wght@700;900&display=swap" rel="stylesheet"/>
 <style>
-/* ══════════════════════════════════════════
-   أيفيكس | AIVEX — Landing v3 Premium
-══════════════════════════════════════════ */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  /* Core palette */
-  --bg:#06070D;
-  --bg2:#0A0C16;
-  --bg3:#0F1220;
-  --bg4:#141828;
-
-  /* Gold / Accent */
-  --gold:#C9A84C;
-  --gold2:#E8C97A;
-  --gold3:#A07830;
-  --gold-glow:rgba(201,168,76,0.18);
-  --gold-dim:rgba(201,168,76,0.09);
-  --gold-border:rgba(201,168,76,0.22);
-  --gold-border2:rgba(201,168,76,0.42);
-  --gold-grad:linear-gradient(135deg,#C9A84C 0%,#E8C97A 45%,#A07830 80%,#C9A84C 100%);
-
-  /* Teal / Green */
-  --teal:#00CFA8;
-  --teal2:#00F0C4;
-  --teal-dim:rgba(0,207,168,0.09);
-  --teal-border:rgba(0,207,168,0.22);
-  --teal-glow:rgba(0,207,168,0.18);
-
-  /* Text */
-  --tx:#E0E8F4;
-  --tx2:rgba(224,232,244,0.55);
-  --tx3:rgba(224,232,244,0.28);
-
-  /* Borders */
-  --bd:rgba(255,255,255,0.06);
-  --bd2:rgba(255,255,255,0.10);
-  --bd3:rgba(255,255,255,0.16);
-
-  /* Red */
-  --red:#F04060;
-  --red-dim:rgba(240,64,96,0.1);
-
-  --r:14px;
-  --r2:10px;
+  --bg:#07080F;--bg2:#0B0D17;--bg3:#10131F;--bg4:#161A2A;
+  --gold:#C9A459;--gold2:#F0D896;--gold3:#8F6E2E;
+  --gold-glow:rgba(201,164,89,0.16);--gold-dim:rgba(201,164,89,0.08);
+  --gold-border:rgba(201,164,89,0.20);--gold-border2:rgba(201,164,89,0.40);
+  --gold-grad:linear-gradient(135deg,#C9A459 0%,#F0D896 50%,#9C7A35 100%);
+  --teal:#15C9A0;--teal2:#3DEFC4;
+  --teal-dim:rgba(21,201,160,0.08);--teal-border:rgba(21,201,160,0.20);
+  --tx:#ECE7DA;--tx2:rgba(236,231,218,0.56);--tx3:rgba(236,231,218,0.26);
+  --bd:rgba(255,255,255,0.055);--bd2:rgba(255,255,255,0.09);--bd3:rgba(255,255,255,0.15);
+  --red:#F0556C;--red-dim:rgba(240,85,108,0.07);
 }
-
 html{scroll-behavior:smooth}
-body{
-  font-family:'Tajawal',sans-serif;
-  background:var(--bg);
-  color:var(--tx);
-  overflow-x:hidden;
-  direction:rtl;
-  -webkit-font-smoothing:antialiased;
-}
-::-webkit-scrollbar{width:3px}
-::-webkit-scrollbar-thumb{background:var(--gold3);border-radius:3px}
+body{font-family:'Tajawal',sans-serif;background:var(--bg);color:var(--tx);direction:rtl;min-height:100vh;-webkit-font-smoothing:antialiased}
+::-webkit-scrollbar{width:3px}::-webkit-scrollbar-thumb{background:var(--gold3);border-radius:3px}
+.bg-grid{position:fixed;inset:0;z-index:0;background-image:linear-gradient(rgba(201,164,89,0.022) 1px,transparent 1px),linear-gradient(90deg,rgba(201,164,89,0.022) 1px,transparent 1px);background-size:56px 56px;pointer-events:none}
+.bg-glow{position:fixed;top:-220px;left:50%;transform:translateX(-50%);width:760px;height:520px;background:radial-gradient(ellipse,rgba(201,164,89,0.06) 0%,transparent 65%);pointer-events:none;z-index:0}
+.wrap{position:relative;z-index:1;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:28px 16px 70px}
 
-/* ──────────────────────────────────────
-   ANIMATED BACKGROUND GRID
-────────────────────────────────────── */
-.bg-grid{
-  position:fixed;inset:0;z-index:0;
-  background-image:
-    linear-gradient(rgba(201,168,76,0.03) 1px,transparent 1px),
-    linear-gradient(90deg,rgba(201,168,76,0.03) 1px,transparent 1px);
-  background-size:60px 60px;
-  pointer-events:none;
-}
-.bg-glow-top{
-  position:fixed;top:-200px;left:50%;transform:translateX(-50%);
-  width:800px;height:500px;
-  background:radial-gradient(ellipse,rgba(201,168,76,0.06) 0%,transparent 65%);
-  pointer-events:none;z-index:0;
-}
+/* NAV */
+.top-nav{width:100%;max-width:480px;display:flex;align-items:center;justify-content:space-between;margin-bottom:30px}
+.nav-brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo{width:36px;height:36px;border-radius:50%;object-fit:cover;border:1.5px solid var(--gold-border2);box-shadow:0 0 12px var(--gold-glow)}
+.nav-name .ar{font-size:10px;font-weight:700;background:var(--gold-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:.5px;display:block}
+.nav-name .en{font-family:'Orbitron',sans-serif;font-size:11px;font-weight:900;color:#fff;letter-spacing:2px;display:block}
+.nav-back{font-size:12.5px;font-weight:700;color:var(--tx2);text-decoration:none;border:1px solid var(--bd2);padding:7px 15px;border-radius:8px;transition:all .2s;display:flex;align-items:center;gap:6px}
+.nav-back:hover{color:var(--gold);border-color:var(--gold-border)}
 
-.page-wrap{position:relative;z-index:1}
+/* PAGE HEADER */
+.page-head{width:100%;max-width:480px;text-align:center;margin-bottom:26px}
+.page-badge{display:inline-flex;align-items:center;gap:8px;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold2);font-size:11px;font-weight:700;padding:6px 16px;border-radius:20px;margin-bottom:16px;letter-spacing:.3px}
+.page-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--gold);animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.page-title{font-family:'Cairo',sans-serif;font-size:clamp(23px,5.5vw,31px);font-weight:900;color:#fff;margin-bottom:9px;line-height:1.22;letter-spacing:-.3px}
+.page-title span{background:var(--gold-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.page-sub{font-size:13.5px;color:var(--tx2);line-height:1.8;max-width:380px;margin:0 auto}
 
-/* ──────────────────────────────────────
-   NAV
-────────────────────────────────────── */
-nav{
-  position:fixed;top:0;left:0;right:0;z-index:200;
-  display:flex;align-items:center;justify-content:space-between;
-  padding:0 5%;height:66px;
-  background:rgba(6,7,13,0.88);
-  backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
-  border-bottom:1px solid var(--bd);
-}
-.nav-brand{display:flex;align-items:center;gap:12px;text-decoration:none}
-.nav-logo{
-  width:38px;height:38px;border-radius:50%;
-  object-fit:cover;
-  border:1.5px solid var(--gold-border2);
-  box-shadow:0 0 14px var(--gold-glow);
-}
-.nav-name{
-  font-family:'Cairo',sans-serif;font-weight:900;font-size:15px;
-  color:#fff;letter-spacing:.3px;line-height:1.2;
-}
-.nav-name .ar-name{
-  display:block;font-size:11px;font-weight:600;
-  background:var(--gold-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-  letter-spacing:.5px;
-}
-.nav-name .en-name{
-  display:block;font-family:'Orbitron',sans-serif;font-size:13px;font-weight:900;
-  color:#fff;letter-spacing:2px;
-}
-.nlinks{display:flex;gap:28px}
-.nlinks a{
-  color:var(--tx2);text-decoration:none;font-size:13.5px;font-weight:600;
-  transition:color .2s;position:relative;
-}
-.nlinks a::after{
-  content:'';position:absolute;bottom:-4px;left:0;right:0;height:1.5px;
-  background:var(--gold);border-radius:2px;
-  transform:scaleX(0);transition:transform .25s;
-}
-.nlinks a:hover{color:#fff}
-.nlinks a:hover::after{transform:scaleX(1)}
-.ncta{display:flex;gap:10px}
-.btn-ghost{
-  background:transparent;border:1px solid var(--gold-border2);color:var(--gold);
-  padding:8px 18px;border-radius:8px;font-size:13px;font-weight:700;
-  cursor:pointer;text-decoration:none;transition:all .22s;font-family:'Tajawal',sans-serif;
-}
-.btn-ghost:hover{background:var(--gold-dim);color:var(--gold2)}
-.btn-solid{
-  background:var(--gold-grad);border:none;color:#060710;
-  padding:8px 20px;border-radius:8px;font-size:13px;font-weight:900;
-  cursor:pointer;text-decoration:none;transition:all .22s;font-family:'Tajawal',sans-serif;
-  box-shadow:0 4px 20px var(--gold-glow);
-}
-.btn-solid:hover{transform:translateY(-1px);box-shadow:0 6px 28px rgba(201,168,76,0.32)}
+/* PROCESS RAIL — SVG ICONS */
+.rail{width:100%;max-width:480px;display:flex;align-items:stretch;margin-bottom:26px;background:var(--bg2);border:1px solid var(--bd);border-radius:14px;padding:4px}
+.rail-item{flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;padding:14px 8px;position:relative}
+.rail-item:not(:last-child)::after{content:'';position:absolute;top:24px;left:0;width:1px;height:22px;background:var(--bd2)}
+.rail-icon{width:32px;height:32px;border-radius:50%;background:var(--gold-dim);border:1px solid var(--gold-border);display:flex;align-items:center;justify-content:center;margin-bottom:8px}
+.rail-icon svg{width:15px;height:15px}
+.rail-txt{font-size:10.8px;color:var(--tx2);line-height:1.5;font-weight:500}
 
-/* ──────────────────────────────────────
-   HERO
-────────────────────────────────────── */
-.hero{
-  min-height:100vh;display:flex;flex-direction:column;
-  align-items:center;justify-content:center;text-align:center;
-  padding:130px 5% 70px;position:relative;overflow:hidden;
-}
-/* floating particles */
-.hero-particles{position:absolute;inset:0;pointer-events:none;overflow:hidden}
-.particle{
-  position:absolute;border-radius:50%;
-  background:var(--gold);opacity:.15;
-  animation:float-up linear infinite;
-}
-@keyframes float-up{
-  0%{transform:translateY(100vh) scale(0);opacity:0}
-  10%{opacity:.15}
-  90%{opacity:.08}
-  100%{transform:translateY(-100px) scale(1.2);opacity:0}
-}
+/* MAIN CARD */
+.card{width:100%;max-width:480px;background:var(--bg2);border:1px solid var(--bd2);border-radius:22px;overflow:hidden;box-shadow:0 28px 70px rgba(0,0,0,.6);position:relative}
+.card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--gold-grad);z-index:2}
 
-.hero-badge{
-  display:inline-flex;align-items:center;gap:9px;
-  background:var(--gold-dim);border:1px solid var(--gold-border);
-  color:var(--gold2);font-size:12.5px;font-weight:700;letter-spacing:.5px;
-  padding:8px 20px;border-radius:30px;margin-bottom:32px;
-  animation:fadeUp .6s ease both;
-}
-.hero-badge .live-dot{
-  width:7px;height:7px;border-radius:50%;background:var(--teal);
-  animation:pulse-dot 1.6s infinite;
-}
-@keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.6)}}
-@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+/* PLAN TABS */
+.plan-tabs{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--bd);position:relative}
+.ptab{padding:17px 12px;text-align:center;cursor:pointer;border:none;background:none;font-family:'Tajawal',sans-serif;font-size:13.5px;font-weight:700;color:var(--tx2);transition:all .22s;position:relative;display:flex;flex-direction:column;align-items:center;gap:4px}
+.ptab.active{color:var(--gold2)}
+.ptab.active::after{content:'';position:absolute;bottom:-1px;left:0;right:0;height:2px;background:var(--gold-grad)}
+.ptab-label{display:flex;align-items:center;gap:7px}
+.ptab-label svg{width:14px;height:14px}
+.ptab-price{font-size:11px;color:var(--tx3);font-weight:400}
+.ptab.active .ptab-price{color:var(--gold3)}
 
-.hero-brand-line{
-  display:flex;align-items:center;justify-content:center;gap:14px;
-  margin-bottom:22px;animation:fadeUp .7s .08s ease both;
-}
-.hero-brand-logo{
-  width:58px;height:58px;border-radius:50%;object-fit:cover;
-  border:2px solid var(--gold-border2);
-  box-shadow:0 0 28px var(--gold-glow),0 0 60px rgba(201,168,76,0.08);
-}
-.hero-brand-text{text-align:right}
-.hero-brand-text .ar{
-  font-family:'Cairo',sans-serif;font-size:22px;font-weight:900;
-  background:var(--gold-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-  line-height:1.1;letter-spacing:.3px;
-}
-.hero-brand-text .en{
-  font-family:'Orbitron',sans-serif;font-size:26px;font-weight:900;
-  color:#fff;letter-spacing:4px;line-height:1.1;
-}
+/* PLAN PANEL */
+.plan-panel{display:none;padding:26px 24px 22px}
+.plan-panel.active{display:block;animation:fadeIn .3s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
 
-.hero h1{
-  font-family:'Cairo',sans-serif;
-  font-size:clamp(32px,5vw,60px);
-  font-weight:900;line-height:1.18;color:#fff;
-  margin-bottom:20px;animation:fadeUp .7s .15s ease both;
-  max-width:720px;
-}
-.hi-gold{background:var(--gold-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.hi-teal{color:var(--teal)}
+/* TICKET-STYLE PRICE BLOCK */
+.ticket{position:relative;background:var(--bg3);border:1px solid var(--bd2);border-radius:16px;padding:22px 22px 0;margin-bottom:22px;overflow:hidden}
+.ticket-top{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:4px}
+.price-old{font-size:13px;color:var(--tx3);text-decoration:line-through}
+.vip-save-badge{display:inline-flex;align-items:center;gap:6px;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold2);font-size:10.5px;font-weight:700;padding:4px 11px;border-radius:20px}
+.vip-save-badge svg{width:12px;height:12px}
+.price-display{display:flex;align-items:flex-end;gap:4px;margin-bottom:5px}
+.price-cur{font-size:20px;font-weight:800;color:var(--gold2);line-height:1.9}
+.price-main{font-family:'Cairo',sans-serif;font-size:50px;font-weight:900;line-height:1;background:var(--gold-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:-1px}
+.price-per{font-size:12px;color:var(--tx2);margin-bottom:18px;font-weight:500}
+.ticket-perf{position:relative;height:22px;margin:0 -22px}
+.ticket-perf::before{content:'';position:absolute;top:50%;left:0;right:0;border-top:1.5px dashed var(--bd2)}
+.ticket-notch{position:absolute;top:11px;width:22px;height:22px;border-radius:50%;background:var(--bg);z-index:1}
+.ticket-notch.l{left:-11px}
+.ticket-notch.r{right:-11px}
 
-.hero-sub{
-  font-size:clamp(15px,1.7vw,17.5px);color:var(--tx2);line-height:1.88;
-  max-width:540px;margin:0 auto 38px;animation:fadeUp .7s .22s ease both;
-}
-.hero-btns{
-  display:flex;gap:14px;justify-content:center;flex-wrap:wrap;
-  margin-bottom:44px;animation:fadeUp .7s .3s ease both;
-}
-.bprim{
-  background:var(--gold-grad);color:#060710;border:none;
-  padding:15px 34px;border-radius:10px;font-size:15.5px;font-weight:900;
-  cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px;
-  font-family:'Tajawal',sans-serif;transition:all .22s;
-  box-shadow:0 6px 24px var(--gold-glow);
-}
-.bprim:hover{transform:translateY(-2px);box-shadow:0 10px 34px rgba(201,168,76,0.36)}
-.bsec{
-  background:transparent;border:1.5px solid var(--teal-border);color:var(--teal);
-  padding:14px 30px;border-radius:10px;font-size:15.5px;font-weight:700;
-  cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px;
-  font-family:'Tajawal',sans-serif;transition:all .22s;
-}
-.bsec:hover{background:var(--teal-dim);transform:translateY(-2px)}
+/* PLAN FEATURES */
+.plan-feats{list-style:none;padding:18px 22px 20px}
+.plan-feats li{display:flex;align-items:flex-start;gap:10px;font-size:13px;color:rgba(236,231,218,.8);padding:7px 0;line-height:1.5}
+.ck{flex-shrink:0;width:18px;height:18px;border-radius:50%;background:var(--teal-dim);border:1px solid var(--teal-border);display:flex;align-items:center;justify-content:center;margin-top:1px}
+.ck svg{width:10px;height:10px}
 
-.hero-tags{
-  display:flex;gap:8px;flex-wrap:wrap;justify-content:center;
-  animation:fadeUp .7s .38s ease both;margin-bottom:32px;
-}
-.htag{
-  font-size:12px;color:var(--tx3);
-  background:rgba(255,255,255,0.03);border:1px solid var(--bd);
-  padding:6px 14px;border-radius:20px;
-}
-.risk-banner{
-  display:inline-flex;align-items:center;gap:8px;
-  background:rgba(240,64,96,0.06);border:1px solid rgba(240,64,96,0.18);
-  color:rgba(240,64,96,0.8);font-size:12px;
-  padding:8px 18px;border-radius:8px;
-  animation:fadeUp .7s .44s ease both;
-}
+/* SECTION LABEL */
+.sec-label{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.sec-label span{font-size:10.5px;font-weight:700;letter-spacing:1.8px;color:var(--gold2);text-transform:uppercase;white-space:nowrap}
+.sec-label::after{content:'';flex:1;height:1px;background:var(--bd2)}
 
-/* ──────────────────────────────────────
-   STATS BAR
-────────────────────────────────────── */
-.stats-bar{
-  display:grid;grid-template-columns:repeat(3,1fr);
-  margin:0 5% 80px;
-  background:var(--bg2);
-  border:1px solid var(--bd);
-  border-top:2px solid var(--gold3);
-  border-radius:16px;overflow:hidden;
-  position:relative;
-}
-.stats-bar::before{
-  content:'';position:absolute;top:0;left:0;right:0;height:1px;
-  background:var(--gold-grad);
-}
-.stat-item{
-  padding:32px 20px;text-align:center;
-  border-left:1px solid var(--bd);position:relative;
-}
-.stat-item:last-child{border-left:none}
-.stat-num{
-  font-family:'Orbitron',sans-serif;font-size:11px;font-weight:900;
-  letter-spacing:1.5px;color:var(--gold2);margin-bottom:8px;
-}
-.stat-label{font-size:13px;color:var(--tx2);line-height:1.5}
-.stat-icon{font-size:20px;margin-bottom:8px}
+/* USDT SECTION */
+.addr-block{background:var(--bg3);border:1px solid var(--bd2);border-radius:13px;overflow:hidden;margin-bottom:10px}
+.addr-net{background:var(--bg4);padding:8px 14px;font-size:10px;font-weight:700;letter-spacing:2px;color:var(--gold2);border-bottom:1px solid var(--bd)}
+.addr-val{padding:12px 14px;font-size:11.5px;color:var(--tx);word-break:break-all;line-height:1.6;cursor:pointer;transition:color .2s;display:flex;align-items:center;justify-content:space-between;gap:8px;font-family:monospace}
+.addr-val:hover{color:var(--gold2)}
+.addr-copy-icon{flex-shrink:0;display:flex;align-items:center;opacity:.55}
+.addr-copy-icon svg{width:15px;height:15px}
+.addr-copied{color:var(--teal2)!important}
 
-/* ──────────────────────────────────────
-   SECTION LABEL
-────────────────────────────────────── */
-.sec-eye{
-  display:inline-flex;align-items:center;gap:8px;
-  font-size:10.5px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
-  color:var(--gold);margin-bottom:14px;
-}
-.sec-eye::before{
-  content:'';width:20px;height:1.5px;background:var(--gold-grad);border-radius:2px;
-}
-.sec-title{
-  font-family:'Cairo',sans-serif;
-  font-size:clamp(26px,3.2vw,40px);font-weight:900;color:#fff;
-  line-height:1.22;margin-bottom:14px;
-}
-.sec-desc{font-size:15px;color:var(--tx2);line-height:1.9}
+/* DIVIDER */
+.divider{height:1px;background:var(--bd);margin:22px 0 18px}
 
-/* ──────────────────────────────────────
-   PLATFORMS
-────────────────────────────────────── */
-.platforms-sec{
-  margin:0 5% 90px;
-  padding:46px;
-  background:linear-gradient(135deg,rgba(201,168,76,0.03),rgba(0,207,168,0.03));
-  border:1px solid var(--bd);
-  border-radius:20px;
-}
-.platform-grid{
-  display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:30px;
-}
-.platform-card{
-  background:var(--bg3);border:1px solid var(--bd2);border-radius:14px;
-  padding:20px 12px;text-align:center;
-  display:flex;flex-direction:column;align-items:center;gap:10px;
-  min-height:110px;transition:all .22s;cursor:default;
-}
-.platform-card:hover{
-  border-color:var(--gold-border);
-  background:var(--bg4);
-  transform:translateY(-3px);
-  box-shadow:0 8px 28px rgba(0,0,0,.4),0 0 20px var(--gold-glow);
-}
-.platform-logo{
-  width:44px;height:44px;border-radius:12px;background:#fff;
-  display:flex;align-items:center;justify-content:center;padding:7px;
-  box-shadow:0 6px 18px rgba(0,0,0,.3);
-}
-.platform-logo img{width:100%;height:100%;object-fit:contain}
-.platform-name{font-size:13px;font-weight:700;color:var(--tx);line-height:1.25}
-.platform-note{
-  margin-top:20px;text-align:center;
-  font-size:12px;color:var(--tx3);
-  padding:10px;border-top:1px solid var(--bd);
-}
+/* FORM */
+.fg{margin-bottom:14px}
+.fl{font-size:12px;font-weight:700;color:var(--tx2);margin-bottom:6px;display:block}
+.fl em{color:var(--red);font-style:normal;margin-right:2px}
+.fi{width:100%;background:var(--bg3);border:1px solid var(--bd2);border-radius:11px;padding:13px 14px;color:var(--tx);font-size:14px;font-family:'Tajawal',sans-serif;outline:none;transition:border-color .2s;-webkit-appearance:none}
+.fi:focus{border-color:var(--gold)}
+.fi::placeholder{color:var(--tx3)}
+.fhint{font-size:11px;color:var(--tx3);margin-top:5px;line-height:1.55}
 
-/* ──────────────────────────────────────
-   FEATURES
-────────────────────────────────────── */
-.features-wrap{padding:90px 5% 30px}
-.features-header{margin-bottom:70px}
-.feat-blocks{display:flex;flex-direction:column;gap:100px}
-.feat-row{
-  display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center;
-}
-.feat-row.flip{direction:ltr}
-.feat-row.flip .feat-text{direction:rtl}
-.feat-tag{
-  display:inline-flex;align-items:center;gap:6px;
-  background:var(--gold-dim);border:1px solid var(--gold-border);
-  color:var(--gold2);font-size:10.5px;font-weight:700;letter-spacing:1.5px;
-  text-transform:uppercase;padding:5px 14px;border-radius:6px;margin-bottom:18px;
-}
-.feat-tag.teal{background:var(--teal-dim);border-color:var(--teal-border);color:var(--teal)}
-.feat-text h3{
-  font-family:'Cairo',sans-serif;font-size:clamp(22px,2.6vw,32px);font-weight:900;
-  color:#fff;line-height:1.25;margin-bottom:14px;
-}
-.feat-text p{font-size:14.5px;color:var(--tx2);line-height:1.95;margin-bottom:24px}
-.feat-bullets{list-style:none;display:flex;flex-direction:column;gap:12px}
-.feat-bullets li{
-  display:flex;align-items:flex-start;gap:12px;
-  font-size:13.5px;color:rgba(255,255,255,.75);line-height:1.65;
-}
-.fcheck{
-  width:20px;height:20px;border-radius:50%;
-  background:var(--gold-dim);border:1px solid var(--gold-border);
-  color:var(--gold);display:flex;align-items:center;justify-content:center;
-  font-size:10px;font-weight:900;flex-shrink:0;margin-top:1px;
-}
-.fcheck.teal{background:var(--teal-dim);border-color:var(--teal-border);color:var(--teal)}
+/* VERIFY BOX */
+.verify-box{background:var(--bg3);border:1px solid var(--gold-border);border-radius:13px;padding:18px;margin-top:6px;margin-bottom:14px;display:none;animation:fadeIn .25s ease}
+.verify-box.show{display:block}
+.verify-title{font-size:13px;font-weight:700;color:var(--gold2);margin-bottom:12px;display:flex;align-items:center;gap:7px}
+.verify-title svg{width:15px;height:15px;flex-shrink:0}
+.verify-data{background:var(--bg4);border-radius:9px;padding:12px 14px;margin-bottom:14px;font-size:12.5px;color:var(--tx2);line-height:2}
+.verify-data b{color:#fff}
+.verify-q{font-size:13px;color:var(--tx2);margin-bottom:14px;text-align:center;font-weight:600}
+.verify-btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.vbtn-yes{background:var(--teal-dim);border:1px solid var(--teal-border);color:var(--teal);padding:12px;border-radius:10px;font-size:13.5px;font-weight:700;cursor:pointer;font-family:'Tajawal',sans-serif;transition:all .2s;text-align:center;display:flex;align-items:center;justify-content:center;gap:7px}
+.vbtn-yes:hover{background:rgba(21,201,160,0.18)}
+.vbtn-yes svg{width:14px;height:14px;flex-shrink:0}
+.vbtn-no{background:rgba(255,255,255,0.03);border:1px solid var(--bd2);color:var(--tx2);padding:12px;border-radius:10px;font-size:13.5px;font-weight:700;cursor:pointer;font-family:'Tajawal',sans-serif;transition:all .2s;text-align:center}
+.vbtn-no:hover{border-color:var(--red);color:var(--red)}
 
-/* ── MOCKUP SHELL ── */
-.mockup{
-  border-radius:18px;overflow:hidden;
-  border:1px solid rgba(255,255,255,0.08);
-  box-shadow:0 30px 70px rgba(0,0,0,.6),0 0 0 1px var(--gold-dim),0 0 40px rgba(201,168,76,0.04);
-  background:var(--bg2);
-}
-.m-bar{
-  background:var(--bg3);padding:11px 16px;
-  display:flex;align-items:center;gap:10px;
-  border-bottom:1px solid var(--bd);
-}
-.m-bar .m-title{font-size:12px;color:var(--tx2);font-weight:600;flex:1}
-.m-dots{display:flex;gap:5px}
-.m-dots i{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,0.1)}
-.m-body{padding:18px}
+/* BUTTONS */
+.btn-main{width:100%;display:flex;align-items:center;justify-content:center;gap:9px;text-align:center;background:var(--gold-grad);color:#0A0700;border:none;padding:16px;border-radius:12px;font-size:15.5px;font-weight:900;cursor:pointer;text-decoration:none;font-family:'Tajawal',sans-serif;transition:all .22s;margin-bottom:10px;box-shadow:0 6px 24px var(--gold-glow)}
+.btn-main:hover{transform:translateY(-1px);box-shadow:0 10px 32px rgba(201,164,89,0.32)}
+.btn-main svg{width:18px;height:18px;flex-shrink:0}
+.btn-support{width:100%;display:flex;align-items:center;justify-content:center;gap:9px;text-align:center;background:transparent;border:1px solid var(--bd2);color:var(--tx2);padding:13px;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer;text-decoration:none;font-family:'Tajawal',sans-serif;transition:all .22s;margin-bottom:10px}
+.btn-support:hover{border-color:var(--teal-border);color:var(--teal)}
+.btn-support svg{width:16px;height:16px;flex-shrink:0}
+.btn-home{width:100%;display:flex;align-items:center;justify-content:center;gap:8px;text-align:center;background:transparent;border:1px solid var(--red);color:var(--red);padding:11px;border-radius:12px;font-size:13.5px;font-weight:700;cursor:pointer;text-decoration:none;font-family:'Tajawal',sans-serif;transition:all .22s;opacity:.7}
+.btn-home:hover{opacity:1;background:var(--red-dim)}
+.btn-home svg{width:14px;height:14px;flex-shrink:0}
 
-/* mockup cards */
-.m-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
-.m-card{background:var(--bg3);border:1px solid var(--bd);border-radius:10px;padding:13px}
-.m-card label{font-size:9.5px;color:var(--tx3);text-transform:uppercase;letter-spacing:1px;display:block;margin-bottom:5px}
-.m-val{font-size:20px;font-weight:800;color:#fff;font-family:'Cairo',sans-serif}
-.m-val.g{color:var(--teal)}
-.m-val.au{color:var(--gold)}
-.m-val.r{color:var(--red)}
-.m-sub{font-size:10px;color:var(--tx3);margin-top:2px}
+/* SUCCESS */
+.success-state{display:none;text-align:center;padding:46px 24px}
+.success-state.show{display:block}
+.success-icon-wrap{width:64px;height:64px;border-radius:50%;background:var(--teal-dim);border:1.5px solid var(--teal-border);display:flex;align-items:center;justify-content:center;margin:0 auto 20px;animation:pop .4s ease}
+.success-icon-wrap svg{width:30px;height:30px}
+@keyframes pop{from{transform:scale(.5)}to{transform:scale(1)}}
+.success-title{font-family:'Cairo',sans-serif;font-size:22px;font-weight:900;color:#fff;margin-bottom:10px}
+.success-sub{font-size:14px;color:var(--tx2);line-height:1.9;margin-bottom:24px}
+.success-badge{display:inline-flex;align-items:center;gap:8px;background:var(--teal-dim);border:1px solid var(--teal-border);color:var(--teal);font-size:13px;font-weight:700;padding:9px 20px;border-radius:8px;margin-bottom:28px}
+.success-badge svg{width:14px;height:14px}
 
-.m-table{background:var(--bg3);border:1px solid var(--bd);border-radius:10px;overflow:hidden}
-.m-thead{display:grid;grid-template-columns:30px 1fr 80px 75px;background:var(--bg4);padding:8px 12px}
-.m-thead span{font-size:9px;color:var(--tx3);font-weight:700;letter-spacing:.8px}
-.m-trow{display:grid;grid-template-columns:30px 1fr 80px 75px;padding:9px 12px;border-top:1px solid var(--bd);align-items:center}
-.m-trow span{font-size:12.5px;color:rgba(255,255,255,.65)}
-.badge-w{background:rgba(0,207,168,0.12);color:var(--teal);font-size:10px;font-weight:800;padding:2px 8px;border-radius:4px}
-.badge-l{background:var(--red-dim);color:var(--red);font-size:10px;font-weight:800;padding:2px 8px;border-radius:4px}
+/* RISK NOTE */
+.risk-note{background:var(--red-dim);border:1px solid rgba(240,85,108,0.12);border-radius:10px;padding:11px 14px;margin-top:16px;font-size:11.5px;color:rgba(240,85,108,.75);line-height:1.65;text-align:center;display:flex;align-items:flex-start;gap:8px;justify-content:center}
+.risk-note svg{width:14px;height:14px;flex-shrink:0;margin-top:2px}
 
-.m-prog-row{display:flex;align-items:center;gap:10px;margin-top:12px}
-.m-prog-bar{flex:1;height:4px;background:rgba(255,255,255,.06);border-radius:3px;overflow:hidden}
-.m-prog-fill{height:100%;background:linear-gradient(90deg,var(--teal),var(--teal2));border-radius:3px;width:67%}
-.m-prog-lbl{font-size:10px;color:var(--tx3)}
-.m-prog-val{font-size:11px;font-weight:700;color:var(--teal)}
+/* HOW-TO SECTION — SVG STEP ICONS */
+.howto{width:100%;max-width:480px;margin-top:30px}
+.howto-head{text-align:center;margin-bottom:22px}
+.howto-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:10.5px;font-weight:700;letter-spacing:2px;color:var(--gold2);text-transform:uppercase;margin-bottom:12px}
+.howto-eyebrow::before,.howto-eyebrow::after{content:'';width:18px;height:1px;background:var(--gold-border2)}
+.howto-title{font-family:'Cairo',sans-serif;font-size:clamp(20px,5vw,26px);font-weight:900;color:#fff;line-height:1.3;margin-bottom:10px}
+.howto-title span{background:var(--gold-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.howto-sub{font-size:13px;color:var(--tx2);line-height:1.85;max-width:380px;margin:0 auto}
 
-/* info panel mockup */
-.m-big{background:var(--bg3);border-radius:10px;padding:14px;display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
-.m-big-lbl{font-size:10px;color:var(--tx3)}
-.m-big-val{font-size:19px;font-weight:900;color:#fff;font-family:'Cairo',sans-serif}
-.m-info-rows{display:flex;flex-direction:column;gap:0}
-.m-info-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--bd)}
-.m-info-row:last-child{border:none}
-.m-ik{font-size:11.5px;color:var(--tx2)}
-.m-iv{font-size:12px;font-weight:700;color:#fff}
-.m-iv.g{color:var(--teal)}.m-iv.r{color:var(--red)}.m-iv.au{color:var(--gold)}
-.m-sec-div{background:var(--bg4);border-radius:6px;padding:3px 10px;font-size:9px;font-weight:700;letter-spacing:1.5px;color:var(--gold);text-align:center;margin:6px 0}
-.m-wr-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
-.m-wr-card{background:var(--bg3);border-radius:9px;padding:11px;text-align:center}
-.m-wr-num{font-size:18px;font-weight:900;font-family:'Cairo',sans-serif}
-.m-wr-lbl{font-size:9.5px;color:var(--tx3);margin-top:2px}
+.howto-list{display:flex;flex-direction:column;gap:14px}
+.howto-card{position:relative;background:var(--bg2);border:1px solid var(--bd2);border-radius:16px;padding:20px 20px 20px 22px;display:flex;gap:16px;transition:border-color .25s}
+.howto-card:hover{border-color:var(--gold-border2)}
+.howto-step-icon{flex-shrink:0;width:44px;height:44px;border-radius:50%;background:var(--gold-grad);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px var(--gold-glow);position:relative}
+.howto-step-icon svg{width:22px;height:22px}
+.howto-card:not(:last-child) .howto-step-icon::after{content:'';position:absolute;top:48px;right:50%;width:1.5px;height:32px;background:linear-gradient(to bottom,var(--gold-border2),transparent)}
+.howto-body{flex:1;padding-top:2px}
+.howto-card-title{font-size:14.5px;font-weight:800;color:#fff;margin-bottom:5px}
+.howto-card-desc{font-size:12.5px;color:var(--tx2);line-height:1.75}
+.howto-warn{margin-top:12px;background:var(--bg3);border:1px solid var(--gold-border);border-radius:11px;padding:12px 14px;font-size:11.5px;color:rgba(236,231,218,.7);line-height:1.7;display:flex;gap:8px;align-items:flex-start}
+.howto-warn svg{width:14px;height:14px;flex-shrink:0;margin-top:2px}
+.howto-warn b{color:var(--gold2);font-weight:700}
 
-/* session mgr mockup */
-.m-session-mgr{display:flex;flex-direction:column;gap:10px}
-.m-btn-new{width:100%;background:linear-gradient(135deg,var(--teal-dim),rgba(0,207,168,0.05));border:1px solid var(--teal-border);color:var(--teal);font-size:14px;font-weight:700;padding:14px;border-radius:10px;display:flex;align-items:center;justify-content:center;gap:8px;font-family:'Tajawal',sans-serif}
-.m-qa{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.m-qa-btn{background:var(--bg3);border:1px solid var(--bd);color:rgba(255,255,255,.55);font-size:11.5px;font-weight:600;padding:10px;border-radius:8px;text-align:center}
-.m-counter{background:var(--bg3);border-radius:10px;padding:16px;display:flex;align-items:center;justify-content:space-between}
-.m-cnt-lbl{font-size:11px;color:var(--tx3)}
-.m-cnt-num{font-size:44px;font-weight:900;color:#fff;font-family:'Cairo',sans-serif;line-height:1}
-.m-cnt-arrows{display:flex;flex-direction:column;gap:4px}
-.m-arr{background:rgba(255,255,255,.05);border:1px solid var(--bd);color:rgba(255,255,255,.4);width:28px;height:22px;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:11px}
-.m-notif-list{display:flex;flex-direction:column;gap:5px}
-.m-notif-item{display:flex;justify-content:space-between;align-items:center;background:var(--bg3);border-radius:8px;padding:9px 11px}
-.m-notif-item span{font-size:11.5px;color:rgba(255,255,255,.55)}
-.m-tog{width:32px;height:17px;border-radius:9px;background:var(--gold);position:relative;flex-shrink:0}
-.m-tog::after{content:'';position:absolute;top:2.5px;right:2.5px;width:12px;height:12px;border-radius:50%;background:#fff}
-.m-tog.off{background:rgba(255,255,255,.1)}
-.m-tog.off::after{right:auto;left:2.5px}
-
-/* log mockup */
-.m-log-summary{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
-.m-log-sum{background:var(--bg3);border-radius:8px;padding:11px;text-align:center}
-.m-log-num{font-size:19px;font-weight:900;font-family:'Cairo',sans-serif}
-.m-log-lbl{font-size:9.5px;color:var(--tx3);margin-top:2px}
-.m-log-table{background:var(--bg3);border-radius:10px;overflow:hidden}
-.m-log-head{display:grid;grid-template-columns:40px 1fr 60px 65px 55px;background:var(--bg4);padding:7px 10px;gap:4px}
-.m-log-head span{font-size:9px;color:var(--tx3);font-weight:700;letter-spacing:.5px}
-.m-log-row{display:grid;grid-template-columns:40px 1fr 60px 65px 55px;padding:8px 10px;border-top:1px solid var(--bd);gap:4px;align-items:center}
-.m-log-row span{font-size:11px;color:rgba(255,255,255,.6)}
-.m-log-row .profit{color:var(--teal);font-weight:700}
-.m-log-total{display:flex;justify-content:space-between;padding:10px 12px;border-top:1px solid var(--bd2)}
-.m-log-total span{font-size:11.5px;color:var(--tx3)}
-.m-log-total strong{font-size:14px;font-weight:800;color:var(--teal)}
-
-/* ──────────────────────────────────────
-   FREE SECTION
-────────────────────────────────────── */
-.free-sec{
-  background:linear-gradient(135deg,rgba(201,168,76,0.05),rgba(0,207,168,0.04));
-  border:1px solid var(--gold-border);
-  border-radius:22px;padding:56px;
-  margin:0 5% 90px;
-  display:grid;grid-template-columns:1fr auto;gap:44px;align-items:center;
-  position:relative;overflow:hidden;
-}
-.free-sec::before{
-  content:'';position:absolute;top:0;left:0;right:0;height:2px;
-  background:var(--gold-grad);
-}
-.free-badge{
-  display:inline-flex;align-items:center;gap:7px;
-  background:var(--gold-dim);border:1px solid var(--gold-border);
-  color:var(--gold);font-size:11px;font-weight:700;letter-spacing:1.5px;
-  padding:5px 14px;border-radius:6px;margin-bottom:16px;
-}
-.free-sec h2{
-  font-family:'Cairo',sans-serif;font-size:clamp(22px,3vw,36px);
-  font-weight:900;color:#fff;margin-bottom:14px;line-height:1.22;
-}
-.free-sec h2 span{background:var(--gold-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.free-sec p{font-size:14.5px;color:var(--tx2);line-height:1.92;max-width:480px}
-.btn-free-big{
-  display:block;
-  background:var(--gold-grad);color:#060710;border:none;
-  padding:16px 36px;border-radius:11px;
-  font-size:15px;font-weight:900;cursor:pointer;text-decoration:none;
-  text-align:center;white-space:nowrap;font-family:'Tajawal',sans-serif;
-  transition:all .22s;margin-bottom:10px;
-  box-shadow:0 6px 24px var(--gold-glow);
-}
-.btn-free-big:hover{transform:translateY(-2px);box-shadow:0 10px 34px rgba(201,168,76,0.38)}
-.free-note{font-size:11.5px;color:var(--tx3);text-align:center;line-height:1.65}
-
-/* ──────────────────────────────────────
-   PRICING
-────────────────────────────────────── */
-.pricing-sec{padding:90px 5%}
-.pricing-header{text-align:center;margin-bottom:50px}
-.pricing-grid{
-  display:grid;grid-template-columns:1fr 1fr;
-  gap:24px;max-width:860px;margin:0 auto;
-}
-.pc{
-  background:var(--bg2);border:1px solid var(--bd2);
-  border-radius:20px;padding:40px;
-  position:relative;overflow:hidden;
-  transition:transform .22s,box-shadow .22s;
-}
-.pc:hover{transform:translateY(-4px);box-shadow:0 20px 60px rgba(0,0,0,.4)}
-.pc::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--teal),var(--gold))}
-.pc.vip{border-color:var(--gold-border2)}
-.pc.vip::before{background:var(--gold-grad)}
-.pc.vip:hover{box-shadow:0 20px 60px rgba(0,0,0,.4),0 0 40px var(--gold-glow)}
-.pc-badge{
-  display:inline-flex;align-items:center;gap:5px;
-  background:var(--teal-dim);border:1px solid var(--teal-border);
-  color:var(--teal);font-size:10.5px;font-weight:700;letter-spacing:1px;
-  padding:4px 12px;border-radius:5px;margin-bottom:20px;
-}
-.pc-badge.vip{background:var(--gold-dim);border-color:var(--gold-border2);color:var(--gold)}
-.pc-old{font-size:16px;color:var(--tx3);text-decoration:line-through;margin-bottom:4px}
-.pc-price{display:flex;align-items:baseline;gap:6px;margin-bottom:6px}
-.pc-amt{font-size:52px;font-weight:900;color:#fff;font-family:'Cairo',sans-serif;line-height:1}
-.pc-amt.gold{background:var(--gold-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.pc-cur{font-size:20px;font-weight:700;color:var(--teal)}
-.pc-cur.gold{color:var(--gold)}
-.pc-period{font-size:13px;color:var(--tx2);margin-bottom:28px}
-.pc-feats{list-style:none;margin-bottom:30px;display:flex;flex-direction:column;gap:0}
-.pc-feats li{
-  display:flex;align-items:center;gap:11px;
-  font-size:13.5px;color:rgba(255,255,255,.75);
-  padding:11px 0;border-bottom:1px solid var(--bd);
-}
-.pc-feats li:last-child{border:none}
-.pc-ck{color:var(--teal);font-size:14px;font-weight:900;flex-shrink:0}
-.pc-ck.gold{color:var(--gold)}
-.btn-buy{
-  width:100%;display:block;text-align:center;
-  background:var(--teal);color:#040d0a;border:none;
-  padding:14px;border-radius:11px;font-size:15px;font-weight:900;
-  cursor:pointer;text-decoration:none;font-family:'Tajawal',sans-serif;
-  transition:all .22s;margin-bottom:10px;
-}
-.btn-buy:hover{background:var(--teal2);transform:translateY(-1px)}
-.btn-buy.gold{background:var(--gold-grad);color:#060710;box-shadow:0 4px 20px var(--gold-glow)}
-.btn-buy.gold:hover{box-shadow:0 8px 30px rgba(201,168,76,0.38)}
-.btn-ask{
-  width:100%;display:block;text-align:center;
-  background:transparent;border:1px solid var(--bd2);color:var(--tx2);
-  padding:12px;border-radius:11px;font-size:13.5px;font-weight:700;
-  cursor:pointer;text-decoration:none;font-family:'Tajawal',sans-serif;
-  transition:all .22s;margin-bottom:14px;
-}
-.btn-ask:hover{border-color:var(--gold-border);color:var(--gold)}
-.pc-pay{font-size:11.5px;color:var(--tx3);text-align:center;margin-bottom:12px}
-.pc-risk{
-  background:var(--red-dim);border:1px solid rgba(240,64,96,0.12);
-  border-radius:8px;padding:10px 13px;
-  font-size:11.5px;color:rgba(240,64,96,.7);line-height:1.6;
-}
-.pc-vip-save{
-  position:absolute;top:18px;left:18px;
-  background:var(--gold-grad);color:#060710;
-  font-size:10px;font-weight:900;padding:3px 10px;border-radius:20px;
-  letter-spacing:.5px;
-}
-
-/* ──────────────────────────────────────
-   REVIEWS
-────────────────────────────────────── */
-.reviews-sec{padding:90px 5%}
-.rev-grid{
-  display:grid;grid-template-columns:repeat(3,1fr);gap:16px;
-  margin-top:36px;
-}
-.rev-card{
-  background:var(--bg2);border:1px solid var(--bd);
-  border-radius:16px;padding:24px;
-  transition:border-color .22s,transform .22s;
-}
-.rev-card:hover{border-color:var(--gold-border);transform:translateY(-3px)}
-.rev-stars{color:var(--gold);font-size:14px;letter-spacing:1px;margin-bottom:12px}
-.rev-text{font-size:14px;color:var(--tx2);line-height:1.88;margin-bottom:18px}
-.rev-author{display:flex;align-items:center;gap:10px}
-.rev-av{
-  width:38px;height:38px;border-radius:50%;
-  background:var(--gold-dim);border:1px solid var(--gold-border);
-  color:var(--gold);display:flex;align-items:center;justify-content:center;
-  font-family:'Cairo',sans-serif;font-size:13px;font-weight:900;flex-shrink:0;
-}
-.rev-name{font-size:13px;font-weight:700;color:var(--tx)}
-.rev-date{font-size:11px;color:var(--tx3);margin-top:2px}
-
-/* ──────────────────────────────────────
-   FAQ
-────────────────────────────────────── */
-.faq-sec{padding:90px 5%}
-.faq-list{margin-top:36px;display:flex;flex-direction:column;gap:10px;max-width:760px}
-.fi{background:var(--bg2);border:1px solid var(--bd);border-radius:12px;overflow:hidden;transition:border-color .22s}
-.fi.open,.fi:hover{border-color:var(--gold-border)}
-.fq{
-  width:100%;display:flex;justify-content:space-between;align-items:center;
-  padding:18px 20px;background:none;border:none;cursor:pointer;
-  color:var(--tx);font-size:14.5px;font-weight:700;
-  font-family:'Tajawal',sans-serif;text-align:right;gap:14px;
-}
-.fq-icon{
-  width:24px;height:24px;border-radius:50%;
-  background:var(--gold-dim);border:1px solid var(--gold-border);
-  color:var(--gold);display:flex;align-items:center;justify-content:center;
-  font-size:14px;font-weight:700;flex-shrink:0;
-  transition:transform .25s,background .25s;
-}
-.fi.open .fq-icon{transform:rotate(45deg);background:var(--gold);color:#060710}
-.fa{
-  display:none;padding:0 20px 18px;
-  font-size:14px;color:var(--tx2);line-height:1.9;
-}
-.fi.open .fa{display:block}
-
-/* ──────────────────────────────────────
-   SUPPORT + CTA
-────────────────────────────────────── */
-.support-sec{
-  margin:0 5% 60px;
-  background:var(--bg2);border:1px solid var(--teal-border);
-  border-radius:20px;padding:44px;
-  display:flex;align-items:center;justify-content:space-between;gap:24px;
-  position:relative;overflow:hidden;
-}
-.support-sec::before{
-  content:'';position:absolute;top:0;left:0;right:0;height:2px;
-  background:linear-gradient(90deg,var(--teal),transparent);
-}
-.support-main-btn{
-  white-space:nowrap;
-  background:var(--teal);color:#040d0a;border:none;
-  padding:14px 28px;border-radius:11px;font-size:15px;font-weight:900;
-  cursor:pointer;text-decoration:none;font-family:'Tajawal',sans-serif;
-  transition:all .22s;display:inline-flex;align-items:center;gap:8px;
-}
-.support-main-btn:hover{background:var(--teal2);transform:translateY(-1px)}
-
-.cta-block{
-  margin:0 5% 80px;
-  background:linear-gradient(135deg,rgba(201,168,76,0.06),rgba(0,207,168,0.04));
-  border:1px solid var(--gold-border);border-radius:22px;padding:56px;text-align:center;
-  position:relative;overflow:hidden;
-}
-.cta-block::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--gold-grad)}
-.cta-block h2{font-family:'Cairo',sans-serif;font-size:clamp(24px,3vw,38px);font-weight:900;color:#fff;margin-bottom:14px}
-.cta-block p{font-size:15px;color:var(--tx2);line-height:1.9;max-width:580px;margin:0 auto 32px}
-.cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
-
-/* ──────────────────────────────────────
-   FOOTER
-────────────────────────────────────── */
-footer{
-  display:flex;align-items:center;justify-content:space-between;
-  padding:24px 5%;
-  border-top:1px solid var(--bd);
-  flex-wrap:wrap;gap:16px;
-}
-.footer-brand{display:flex;align-items:center;gap:10px}
-.footer-brand img{width:34px;height:34px;border-radius:50%;object-fit:cover;border:1px solid var(--gold-border)}
-.footer-brand-name{line-height:1.2}
-.footer-brand-name .ar{font-size:11px;font-weight:700;background:var(--gold-grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;letter-spacing:.5px}
-.footer-brand-name .en{font-family:'Orbitron',sans-serif;font-size:11px;font-weight:900;color:var(--tx2);letter-spacing:1.5px}
-.footer-soc{display:flex;align-items:center;gap:6px}
-.footer-soc a{
-  width:36px;height:36px;border-radius:9px;background:var(--bg2);
-  border:1px solid var(--bd);color:var(--tx2);
-  display:flex;align-items:center;justify-content:center;
-  text-decoration:none;font-size:11px;font-weight:700;
-  transition:all .2s;
-}
-.footer-soc a:hover{border-color:var(--gold-border);color:var(--gold)}
-.footer-soc a svg{width:17px;height:17px;fill:currentColor}
-.footer-note{font-size:12px;color:var(--tx3);width:100%;text-align:center;border-top:1px solid var(--bd);padding-top:16px}
-
-/* ──────────────────────────────────────
-   FLOAT BUTTON
-────────────────────────────────────── */
-.float-btn{
-  position:fixed;left:18px;bottom:18px;z-index:300;
-  background:var(--gold-grad);color:#060710;
-  text-decoration:none;font-size:13px;font-weight:900;
-  padding:11px 18px;border-radius:999px;
-  box-shadow:0 8px 28px rgba(0,0,0,.35),0 0 20px var(--gold-glow);
-  font-family:'Tajawal',sans-serif;transition:all .22s;
-  display:flex;align-items:center;gap:7px;
-}
-.float-btn:hover{transform:translateY(-2px);box-shadow:0 12px 36px rgba(0,0,0,.4),0 0 28px var(--gold-glow)}
-
-/* ──────────────────────────────────────
-   SCROLL REVEAL
-────────────────────────────────────── */
-.sr{opacity:0;transform:translateY(24px);transition:opacity .65s ease,transform .65s ease}
-.sr.visible{opacity:1;transform:translateY(0)}
-
-/* ──────────────────────────────────────
-   RISK NOTE
-────────────────────────────────────── */
-.risk-note{
-  background:var(--red-dim);border:1px solid rgba(240,64,96,0.12);
-  border-radius:8px;padding:10px 14px;
-  font-size:12px;color:rgba(240,64,96,.75);line-height:1.65;
-}
-
-/* ──────────────────────────────────────
-   PURCHASE BUTTON (legacy compat)
-────────────────────────────────────── */
-.bpurchase{
-  width:100%;display:block;text-align:center;
-  background:var(--teal);color:#040d0a;border:none;
-  padding:14px;border-radius:11px;font-size:15px;font-weight:900;
-  cursor:pointer;text-decoration:none;font-family:'Tajawal',sans-serif;
-  transition:all .22s;margin-bottom:10px;
-}
-.bpurchase:hover{background:var(--teal2)}
-.bsupport-inline{
-  width:100%;display:block;text-align:center;display:flex;align-items:center;justify-content:center;
-  background:transparent;border:1px solid var(--bd2);color:var(--tx2);
-  padding:12px;border-radius:11px;font-size:13.5px;font-weight:700;
-  cursor:pointer;text-decoration:none;font-family:'Tajawal',sans-serif;
-  transition:all .22s;margin-bottom:14px;
-}
-.bsupport-inline:hover{border-color:var(--gold-border);color:var(--gold)}
-.pms{text-align:center;margin-bottom:10px}
-.pm{font-size:11.5px;color:var(--tx3)}
-
-/* ──────────────────────────────────────
-   RESPONSIVE
-────────────────────────────────────── */
-@media(max-width:900px){
-  .feat-row,.feat-row.flip{grid-template-columns:1fr;gap:28px;direction:rtl}
-  .rev-grid{grid-template-columns:1fr}
-  .pricing-grid{grid-template-columns:1fr}
-  .platform-grid{grid-template-columns:repeat(2,1fr)}
-  .free-sec{grid-template-columns:1fr}
-  .support-sec{flex-direction:column;align-items:flex-start}
-  .cta-btns{flex-direction:column;align-items:center}
-}
-@media(max-width:768px){
-  nav{
-    position:relative;display:grid;
-    grid-template-columns:1fr;gap:12px;
-    padding:14px 5%;height:auto;
-  }
-  .nav-brand{justify-content:center}
-  .nlinks{display:none}
-  .ncta{justify-content:center}
-  .hero{padding:40px 5% 50px;min-height:auto}
-  .stats-bar{grid-template-columns:1fr;margin:0 5% 60px}
-  .stat-item{border-left:none;border-bottom:1px solid var(--bd)}
-  .stat-item:last-child{border:none}
-  .platforms-sec{padding:28px;margin-inline:4%}
-  .features-wrap{padding:60px 4% 20px}
-  .free-sec{padding:32px;margin-inline:4%}
-  .cta-block{padding:40px 24px;margin-inline:4%}
-  .support-sec{margin-inline:4%;padding:32px}
-  .float-btn{bottom:14px;left:14px;font-size:12px;padding:10px 14px}
-  footer{flex-direction:column;align-items:center;text-align:center;padding:20px 5%}
-  .rev-grid{grid-template-columns:1fr}
-}
-@media(max-width:520px){
-  .platform-grid{grid-template-columns:1fr}
-  .hero-brand-text .en{font-size:20px}
-  .ncta{grid-template-columns:repeat(2,1fr)}
-}
+@media(max-width:420px){.wrap{padding:20px 12px 60px}.plan-panel{padding:20px 16px 18px}.price-main{font-size:44px}.howto-card{padding:17px 16px 17px 18px;gap:13px}.howto-step-icon{width:38px;height:38px}}
 </style>
 </head>
 <body>
 <div class="bg-grid"></div>
-<div class="bg-glow-top"></div>
-
-<div class="page-wrap">
+<div class="bg-glow"></div>
+<div class="wrap">
 
 <!-- NAV -->
-<nav>
-  <a class="nav-brand" href="#">
-    <img class="nav-logo" alt="أيفيكس AIVEX" src="https://i.postimg.cc/J45gyPpT/20260626-085952.jpg"/>
+<div class="top-nav">
+  <a class="nav-brand" href="index.html">
+    <img class="nav-logo" alt="أيفيكس" src="https://i.postimg.cc/J45gyPpT/20260626-085952.jpg"/>
     <div class="nav-name">
-      <span class="ar-name">أيفيكس</span>
-      <span class="en-name">𝘼𝙄𝙑𝙀𝙓</span>
+      <span class="ar">أيفيكس</span>
+      <span class="en">𝘼𝙄𝙑𝙀𝙓</span>
     </div>
   </a>
-  <div class="nlinks">
-    <a href="#features">المميزات</a>
-    <a href="#platforms">المنصات</a>
-    <a href="#free">التفعيل المجاني</a>
-    <a href="#pricing">الأسعار</a>
-    <a href="#reviews">الآراء</a>
-    <a href="#support">الدعم</a>
-  </div>
-  <div class="ncta">
-    <a class="btn-ghost" href="https://t.me/AIVEX_Trade_Hub">دخول النظام</a>
-    <a class="btn-solid" href="#pricing">ابدأ الآن</a>
-  </div>
-</nav>
+  <a class="nav-back" href="index.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><polyline points="15 18 9 12 15 6"/></svg>
+    الرئيسية
+  </a>
+</div>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-particles" id="particles"></div>
+<!-- PAGE HEADER -->
+<div class="page-head">
+  <div class="page-badge"><span class="dot"></span> اشتراك مباشر</div>
+  <h1 class="page-title">نظامك الكامل <span>لإدارة المال والقرار</span></h1>
+  <p class="page-sub">أيفيكس ليس حاسبة — هو مدير جلسات يحمي رأس مالك، يحسب كل صفقة رياضياً، ويوقفك قبل أن تنهار. فعّل حسابك وابدأ التداول بانضباط حقيقي.</p>
+</div>
 
-  <div class="hero-badge">
-    <span class="live-dot"></span>
-    مدير جلسات التداول الذكي
-  </div>
-
-  <div class="hero-brand-line">
-    <img class="hero-brand-logo" alt="أيفيكس AIVEX" src="https://i.postimg.cc/J45gyPpT/20260626-085952.jpg"/>
-    <div class="hero-brand-text">
-      <div class="ar">أيفيكس</div>
-      <div class="en">𝘼𝙄𝙑𝙀𝙓</div>
+<!-- PROCESS RAIL — SVG ICONS -->
+<div class="rail">
+  <div class="rail-item">
+    <div class="rail-icon">
+      <!-- Choose plan icon -->
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+        <line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+      </svg>
     </div>
+    <div class="rail-txt">اختر الخطة<br/>وأرسل المبلغ</div>
   </div>
-
-  <h1>
-    نظام يُنظّم جلساتك<br/>
-    ويحميك من <span class="hi-gold">العشوائية</span>
-  </h1>
-
-  <p class="hero-sub">
-    احسب قيمة الصفقة قبل الدخول، حدّد هدفك ووقف خسارتك، وسجّل كل جلسة لتراجع أداءك بوضوح — كل ذلك داخل حسابك الخاص.
-  </p>
-
-  <div class="hero-btns">
-    <a class="bprim" href="#pricing">🚀 ابدأ الآن</a>
-    <a class="bsec" href="https://t.me/AIVEX_Trade_Hub">دخول النظام</a>
+  <div class="rail-item">
+    <div class="rail-icon">
+      <!-- Form / Data icon -->
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+        <polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+      </svg>
+    </div>
+    <div class="rail-txt">أدخل بياناتك<br/>وأرسل الطلب</div>
   </div>
-
-  <div class="hero-tags">
-    <span class="htag">✓ مخصص للخيارات الثنائية</span>
-    <span class="htag">✓ حساب خاص لكل مستخدم</span>
-    <span class="htag">✓ حفظ سحابي للجلسات</span>
-    <span class="htag">✓ إدارة هدف ووقف خسارة</span>
-  </div>
-
-  <div class="risk-banner">
-    ⚠️ أيفيكس | AIVEX أداة تنظيم وإدارة مخاطر — لا يضمن الأرباح ولا يدير حسابك
-  </div>
-</section>
-
-<!-- STATS -->
-<div class="stats-bar sr">
-  <div class="stat-item">
-    <div class="stat-icon">🌐</div>
-    <div class="stat-num">WEB APP</div>
-    <div class="stat-label">تعمل من الجوال والكمبيوتر عبر حسابك</div>
-  </div>
-  <div class="stat-item">
-    <div class="stat-icon">📊</div>
-    <div class="stat-num">BINARY OPTIONS</div>
-    <div class="stat-label">مصمّمة لإدارة جلسات تداول الخيارات الثنائية</div>
-  </div>
-  <div class="stat-item">
-    <div class="stat-icon">☁️</div>
-    <div class="stat-num">CLOUD SYNC</div>
-    <div class="stat-label">الجلسات والصفقات محفوظة داخل حسابك</div>
+  <div class="rail-item">
+    <div class="rail-icon">
+      <!-- Activate / Bolt icon -->
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+      </svg>
+    </div>
+    <div class="rail-txt">انتظر التفعيل<br/>عبر تيليجرام</div>
   </div>
 </div>
 
-<!-- PLATFORMS -->
-<section class="platforms-sec sr" id="platforms">
-  <div class="sec-eye">منصات التداول</div>
-  <h2 class="sec-title">تستخدمه بجانب منصتك — <span class="hi-teal">للخيارات الثنائية</span></h2>
-  <p class="sec-desc">أيفيكس | AIVEX نظام مستقل لإدارة الجلسات وحساب قيمة الصفقة. لا يحتاج API ولا يتصل بحساب التداول — أداة خارجية تعمل بجانب أي منصة.</p>
-  <div class="platform-grid">
-    <div class="platform-card">
-      <span class="platform-logo"><img alt="Pocket Option" src="https://www.google.com/s2/favicons?domain=pocketoption.com&sz=128"></span>
-      <span class="platform-name">Pocket Option</span>
-    </div>
-    <div class="platform-card">
-      <span class="platform-logo"><img alt="ExpertOption" src="https://www.google.com/s2/favicons?domain=expertoption.com&sz=128"></span>
-      <span class="platform-name">ExpertOption</span>
-    </div>
-    <div class="platform-card">
-      <span class="platform-logo"><img alt="Quotex" src="https://www.google.com/s2/favicons?domain=quotex.io&sz=128"></span>
-      <span class="platform-name">Quotex</span>
-    </div>
-    <div class="platform-card">
-      <span class="platform-logo"><img alt="Olymp Trade" src="https://www.google.com/s2/favicons?domain=olymptrade.com&sz=128"></span>
-      <span class="platform-name">Olymp Trade</span>
-    </div>
-    <div class="platform-card">
-      <span class="platform-logo"><img alt="IQ Option" src="https://www.google.com/s2/favicons?domain=iqoption.com&sz=128"></span>
-      <span class="platform-name">IQ Option</span>
-    </div>
-  </div>
-  <div class="platform-note">الأسماء أعلاه للتوضيح فقط، لا تعني وجود شراكة أو اعتماد رسمي من هذه المنصات.</div>
-</section>
+<!-- MAIN CARD -->
+<div class="card">
 
-<!-- FEATURES -->
-<div id="features" class="features-wrap">
-  <div class="features-header sr">
-    <div class="sec-eye">المميزات</div>
-    <h2 class="sec-title">الأدوات التي تخليك تتداول <span class="hi-teal">بخطة</span></h2>
-    <p class="sec-desc">الفكرة بسيطة: قبل ما تدخل الصفقة، اعرف حجمها. وقبل ما تكمل الجلسة، اعرف متى توقف.</p>
+  <!-- PLAN TABS -->
+  <div class="plan-tabs">
+    <button class="ptab active" onclick="switchPlan('monthly')">
+      <span class="ptab-label">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+        </svg>
+        شهري
+      </span>
+      <span class="ptab-price">$49 / شهر</span>
+    </button>
+    <button class="ptab" onclick="switchPlan('yearly')">
+      <span class="ptab-label">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+        </svg>
+        VIP سنوي
+      </span>
+      <span class="ptab-price">$199 / سنة</span>
+    </button>
   </div>
 
-  <div class="feat-blocks">
-
-    <!-- FEAT 1 -->
-    <div class="feat-row sr">
-      <div class="mockup">
-        <div class="m-bar">
-          <span class="m-title">أيفيكس — الجلسة الحالية</span>
-          <div class="m-dots"><i></i><i></i><i></i></div>
-        </div>
-        <div class="m-body">
-          <div class="m-grid">
-            <div class="m-card"><label>رأس المال</label><div class="m-val g">$1,500.00</div><div class="m-sub">USD</div></div>
-            <div class="m-card"><label>حجم الصفقة</label><div class="m-val">$19.79</div><div class="m-sub">USD · محسوب تلقائياً</div></div>
-            <div class="m-card"><label>Stop Loss</label><div class="m-val r">$1,425.00</div><div class="m-sub">USD</div></div>
-            <div class="m-card"><label>Payout</label><div class="m-val au">92%</div><div class="m-sub">نسبة العائد</div></div>
-          </div>
-          <div class="m-table">
-            <div class="m-thead"><span>NO.</span><span>النتيجة</span><span>قيمة الصفقة</span><span>الرصيد</span></div>
-            <div class="m-trow"><span style="color:var(--tx3)">1</span><span><div class="badge-l">L</div></span><span>$4.54</span><span>1,495.46</span></div>
-            <div class="m-trow"><span style="color:var(--tx3)">2</span><span><div class="badge-l">L</div></span><span>$9.48</span><span>1,485.97</span></div>
-            <div class="m-trow"><span style="color:var(--tx3)">3</span><span><div class="badge-w">W</div></span><span>$19.79</span><span style="color:var(--teal);font-weight:700">1,504.18</span></div>
-            <div class="m-trow"><span style="color:var(--tx3)">4</span><span style="color:var(--tx3);font-size:10px">انتهت الجلسة</span><span></span><span></span></div>
-          </div>
-          <div class="m-prog-row">
-            <span class="m-prog-lbl">Win Rate</span>
-            <div class="m-prog-bar"><div class="m-prog-fill"></div></div>
-            <span class="m-prog-val">67%</span>
-          </div>
-        </div>
+  <!-- MONTHLY -->
+  <div class="plan-panel active" id="panel-monthly">
+    <div class="ticket">
+      <div class="ticket-top">
+        <div class="price-old">$99</div>
       </div>
-      <div class="feat-text">
-        <span class="feat-tag">إدارة رأس المال</span>
-        <h3>اكتشف قوة التحكم<br/>الحقيقي في رأس مالك</h3>
-        <p>أدخل بياناتك مرة واحدة، وأيفيكس | AIVEX يحسب قيمة الصفقة ويوضح لك هدف الجلسة ووقف الخسارة — تتداول بانضباط بدل قرارات لحظية.</p>
-        <ul class="feat-bullets">
-          <li><span class="fcheck">✓</span> يحسب حجم الصفقة بناءً على رأس المال ونسبة المخاطرة</li>
-          <li><span class="fcheck">✓</span> يوضح هدف الجلسة وحد الخسارة قبل بدء التداول</li>
-          <li><span class="fcheck">✓</span> يقلل قرارات الدخول العشوائي بعد الخسارة</li>
-          <li><span class="fcheck">✓</span> يساعدك تبني عادة الالتزام بالخطة</li>
-        </ul>
+      <div class="price-display">
+        <span class="price-cur">$</span>
+        <span class="price-main">49</span>
       </div>
-    </div>
-
-    <!-- FEAT 2 -->
-    <div class="feat-row flip sr">
-      <div class="feat-text">
-        <span class="feat-tag teal">لوحة التحكم</span>
-        <h3>عينك الثانية<br/><span class="hi-teal">في السوق</span></h3>
-        <p>المعلومات الرئيسية أمامك دائماً. تابع Win/Loss Ratio، وقف الخسارة، والحد الأقصى — كل شيء محسوب ومحدَّث لحظة بلحظة.</p>
-        <ul class="feat-bullets">
-          <li><span class="fcheck teal">✓</span> يعرض رأس المال الحالي والهدف وحد الخسارة في مكان واحد</li>
-          <li><span class="fcheck teal">✓</span> يوضح نسبة الفوز وعدد الصفقات الرابحة والخاسرة</li>
-          <li><span class="fcheck teal">✓</span> يساعدك تراجع أداء الجلسة بدون حسابات يدوية</li>
-          <li><span class="fcheck teal">✓</span> مناسب للمتداول الذي يريد قراراً مرتباً</li>
-        </ul>
-      </div>
-      <div class="mockup">
-        <div class="m-bar">
-          <span class="m-title">المعلومات الرئيسية</span>
-          <div class="m-dots"><i></i><i></i><i></i></div>
-        </div>
-        <div class="m-body">
-          <div class="m-big">
-            <div><div class="m-big-lbl">رأس المال</div><div class="m-big-val" style="color:var(--teal)">$1,500.00</div></div>
-            <div style="text-align:left"><div class="m-big-lbl">Payout %</div><div class="m-big-val" style="color:var(--gold)">92%</div></div>
-          </div>
-          <div class="m-info-rows">
-            <div class="m-sec-div">الهدف المحدد للجلسة</div>
-            <div class="m-info-row"><span class="m-ik">رأس المال النهائي</span><span class="m-iv g">$1,504.18</span></div>
-            <div class="m-info-row"><span class="m-ik">أرباح الحساب</span><span class="m-iv g">0.28%</span></div>
-            <div class="m-info-row"><span class="m-ik">الربح المحقق</span><span class="m-iv g">$4.18</span></div>
-            <div class="m-info-row"><span class="m-ik">Stop Loss</span><span class="m-iv r">$1,425.00</span></div>
-            <div class="m-info-row"><span class="m-ik">Max Loss Limit</span><span class="m-iv r">8 صفقات</span></div>
-          </div>
-          <div class="m-wr-row">
-            <div class="m-wr-card"><div class="m-wr-num" style="color:var(--teal)">1</div><div class="m-wr-lbl">صفقة رابحة · 33%</div></div>
-            <div class="m-wr-card"><div class="m-wr-num" style="color:var(--red)">2</div><div class="m-wr-lbl">صفقة خاسرة · 67%</div></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- FEAT 3 -->
-    <div class="feat-row sr">
-      <div class="mockup">
-        <div class="m-bar">
-          <span class="m-title">إدارة الجلسات</span>
-          <div class="m-dots"><i></i><i></i><i></i></div>
-        </div>
-        <div class="m-body">
-          <div class="m-session-mgr">
-            <button class="m-btn-new">＋ جلسة جديدة</button>
-            <div class="m-qa">
-              <div class="m-qa-btn">نسخ رأس المال</div>
-              <div class="m-qa-btn">تسجيل الجلسة</div>
-            </div>
-            <div class="m-counter">
-              <div><div class="m-cnt-lbl">عداد الجلسات</div><div class="m-cnt-num">3</div></div>
-              <div class="m-cnt-arrows"><div class="m-arr">▲</div><div class="m-arr">▼</div></div>
-            </div>
-            <div style="font-size:10.5px;color:var(--tx3);margin-bottom:5px">التنبيهات والأتمتة</div>
-            <div class="m-notif-list">
-              <div class="m-notif-item"><span>تنبيه وقف الخسارة %</span><div class="m-tog"></div></div>
-              <div class="m-notif-item"><span>تنبيه نهاية الجلسة</span><div class="m-tog"></div></div>
-              <div class="m-notif-item"><span>نسخ الرصيد تلقائياً</span><div class="m-tog off"></div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="feat-text">
-        <span class="feat-tag">إدارة الجلسة</span>
-        <h3>اعرف متى تبدأ<br/>ومتى توقف</h3>
-        <p>المشكلة غالباً ليست في الصفقة وحدها، بل في استمرار الجلسة بعد الانفعال. أيفيكس يعطيك إطاراً واضحاً من البداية.</p>
-        <ul class="feat-bullets">
-          <li><span class="fcheck">✓</span> بداية جلسة جديدة بإعدادات واضحة</li>
-          <li><span class="fcheck">✓</span> متابعة رأس المال والصفقات أثناء الجلسة</li>
-          <li><span class="fcheck">✓</span> تنبيهات عند الاقتراب من حد الخسارة</li>
-          <li><span class="fcheck">✓</span> يقلل قرار "أعوضها بصفقة ثانية" بدون خطة</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- FEAT 4 -->
-    <div class="feat-row flip sr">
-      <div class="feat-text">
-        <span class="feat-tag teal">سجل الجلسات</span>
-        <h3>راجع أداءك<br/><span class="hi-gold">بدون تجميل</span></h3>
-        <p>سجل الجلسات يخليك تشوف الصورة كاملة: متى ربحت، متى خسرت، كم صفقة دخلت، وهل التزمت بالخطة أو خرجت عنها.</p>
-        <ul class="feat-bullets">
-          <li><span class="fcheck teal">✓</span> حفظ بيانات الجلسة للرجوع لها لاحقاً</li>
-          <li><span class="fcheck teal">✓</span> عرض عدد الصفقات ونسبة الفوز والنتيجة الإجمالية</li>
-          <li><span class="fcheck teal">✓</span> تعرّف هل الخلل في الاستراتيجية أو الالتزام</li>
-          <li><span class="fcheck teal">✓</span> يحوّل التجربة اليومية إلى بيانات قابلة للمراجعة</li>
-        </ul>
-      </div>
-      <div class="mockup">
-        <div class="m-bar">
-          <span class="m-title">سجل الجلسات</span>
-          <div class="m-dots"><i></i><i></i><i></i></div>
-        </div>
-        <div class="m-body">
-          <div class="m-log-summary">
-            <div class="m-log-sum"><div class="m-log-num" style="color:var(--teal)">3</div><div class="m-log-lbl">جلسات</div></div>
-            <div class="m-log-sum"><div class="m-log-num" style="color:var(--teal)">3</div><div class="m-log-lbl">أرباح</div></div>
-            <div class="m-log-sum"><div class="m-log-num" style="color:var(--red)">0</div><div class="m-log-lbl">خسائر</div></div>
-          </div>
-          <div class="m-log-table">
-            <div class="m-log-head"><span>الجلسة</span><span>التاريخ</span><span>الرصيد</span><span>Win Rate</span><span>الإجمالي</span></div>
-            <div class="m-log-row"><span>1</span><span>6/26/26</span><span>1,500</span><span style="color:var(--teal)">100%</span><span class="profit">+$4.18</span></div>
-            <div class="m-log-row"><span>2</span><span>6/26/26</span><span>1,504</span><span style="color:var(--teal)">100%</span><span class="profit">+$4.19</span></div>
-            <div class="m-log-row"><span>3</span><span>6/27/26</span><span>1,508</span><span style="color:var(--teal)">100%</span><span class="profit">+$4.20</span></div>
-          </div>
-          <div class="m-log-total"><span>إجمالي الأرباح</span><strong>+$12.57</strong></div>
-        </div>
-      </div>
-    </div>
-
-  </div><!-- end feat-blocks -->
-</div>
-
-<!-- FREE SECTION -->
-<div class="free-sec sr" id="free">
-  <div>
-    <div class="free-badge">🎁 احصل عليه مجانًا</div>
-    <h2>أيفيكس | <span>AIVEX</span> مجاناً<br/>عبر وكالة Pocket Option</h2>
-    <p>هذا الخيار مخصص للحسابات الجديدة في Pocket Option: سجّل من رابط وكالة أيفيكس، وثّق حسابك، ثم أودع 200$ أو أكثر داخل حسابك. هذا المبلغ يبقى في حسابك وتتداول به — بعد ذلك أرسل رقم حسابك للمراجعة.</p>
-  </div>
-  <div style="min-width:280px">
-    <a class="btn-free-big" href="free-activation.html#free">احصل عليه مجانًا</a>
-    <p class="free-note">التفعيل المجاني يتم بعد مطابقة التسجيل والتوثيق والإيداع عبر رابط الوكالة.</p>
-  </div>
-</div>
-
-<!-- PRICING -->
-<section class="pricing-sec" id="pricing">
-  <div class="pricing-header sr">
-    <div class="sec-eye" style="justify-content:center">الأسعار</div>
-    <h2 class="sec-title">اختر خطتك مع <span class="hi-gold">أيفيكس | 𝘼𝙄𝙑𝙀𝙓</span></h2>
-    <p class="sec-desc">وصول إلى نظام مختبر التداول الذكي + شرح الاستخدام + دعم بعد التفعيل</p>
-  </div>
-
-  <div class="pricing-grid sr">
-    <!-- شهري -->
-    <div class="pc">
-      <div class="pc-badge">⚡ شهري</div>
-      <div class="pc-old">$99</div>
-      <div class="pc-price">
-        <span class="pc-amt">49</span>
-        <span class="pc-cur">$</span>
-      </div>
-      <div class="pc-period">/ شهر · يتجدد كل شهر</div>
-      <ul class="pc-feats">
-        <li><span class="pc-ck">✓</span> وصول إلى نظام أيفيكس | AIVEX الذكي</li>
-        <li><span class="pc-ck">✓</span> حساب قيمة الصفقة وإدارة رأس المال</li>
-        <li><span class="pc-ck">✓</span> إعداد حدود الجلسة ووقف الخسارة</li>
-        <li><span class="pc-ck">✓</span> سجل جلسات وصفقات محفوظ داخل حسابك</li>
-        <li><span class="pc-ck">✓</span> شرح استخدام للنظام والتسجيل والتفعيل</li>
-        <li><span class="pc-ck">✓</span> دعم واستفسار بعد التفعيل</li>
+      <div class="price-per">شهرياً · يتجدد تلقائياً · الدفع عبر USDT</div>
+      <div class="ticket-perf"><span class="ticket-notch l"></span><span class="ticket-notch r"></span></div>
+      <ul class="plan-feats">
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          محرك استراتيجيات كامل: مارتينجيل، ثابت، % الرصيد، والمستثمر الذكي Bro
+        </li>
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          حماية تلقائية من الانهيار — سقف رصيد ووقف خسارة ذكي
+        </li>
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          مساعد ذكي يحلّل جلستك لحظياً ويقرر معك: أكمل أم توقف
+        </li>
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          تتبع دقيق لكل صفقة وجلسة مع تقرير أداء كامل
+        </li>
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          شرح استخدام كامل بعد التفعيل
+        </li>
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          دعم مباشر عبر تيليجرام
+        </li>
       </ul>
-      <a class="btn-buy" href="free-activation.html">اشتراك شهري</a>
-      <a class="bsupport-inline" href="https://t.me/AIVEX_Trade_Hub">استفسار قبل الشراء</a>
-      <div class="pc-pay">الدفع عبر USDT</div>
-      <div class="pc-risk">لا يوجد ضمان للربح. نتائج التداول تعتمد على قراراتك وإدارة رأس المال.</div>
     </div>
 
-    <!-- VIP سنوي -->
-    <div class="pc vip">
-      <div class="pc-vip-save">وفّر 38%</div>
-      <div class="pc-badge vip">👑 VIP سنوي</div>
-      <div class="pc-price">
-        <span class="pc-amt gold">199</span>
-        <span class="pc-cur gold">$</span>
+    <div id="form-monthly">
+      <div class="sec-label"><span>عنوان الإرسال — USDT</span></div>
+      <div class="addr-block">
+        <div class="addr-net">TRC20</div>
+        <div class="addr-val" onclick="copyAddr(this,'TV1KNGdghKAMq9m6DB6vTE1z1TDnvixZCv')">
+          <span>TV1KNGdghKAMq9m6DB6vTE1z1TDnvixZCv</span>
+          <span class="addr-copy-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+          </span>
+        </div>
       </div>
-      <div class="pc-period" style="color:var(--gold)">/ سنة · أفضل قيمة</div>
-      <ul class="pc-feats">
-        <li><span class="pc-ck gold">✓</span> وصول كامل لمدة سنة</li>
-        <li><span class="pc-ck gold">✓</span> جميع مميزات الخطة الشهرية</li>
-        <li><span class="pc-ck gold">✓</span> أولوية دعم VIP</li>
-        <li><span class="pc-ck gold">✓</span> تحديثات مستقبلية مجانية</li>
-        <li><span class="pc-ck gold">✓</span> وصول مبكر للمميزات الجديدة</li>
-        <li><span class="pc-ck gold">✓</span> توفير 38% مقارنة بالاشتراك الشهري</li>
+      <div class="addr-block" style="margin-bottom:6px">
+        <div class="addr-net">BEP20</div>
+        <div class="addr-val" onclick="copyAddr(this,'0x23fb59b1fdfe19c122892ec8973e4438fe2e7fea')">
+          <span>0x23fb59b1fdfe19c122892ec8973e4438fe2e7fea</span>
+          <span class="addr-copy-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="sec-label"><span>بياناتك لإتمام التفعيل</span></div>
+      <div class="fg">
+        <label class="fl">الاسم <em>*</em></label>
+        <input class="fi" id="m-name" type="text" placeholder="اسمك الكامل"/>
+      </div>
+      <div class="fg">
+        <label class="fl">الإيميل <em>*</em></label>
+        <input class="fi" id="m-email" type="email" placeholder="example@email.com"/>
+        <div class="fhint">سيُستخدم لإنشاء حسابك في النظام</div>
+      </div>
+      <div class="fg">
+        <label class="fl">رقم TxID <em>*</em></label>
+        <input class="fi" id="m-txid" type="text" placeholder="رقم معرّف عملية الدفع من محفظتك"/>
+        <div class="fhint">موجود في تاريخ المعاملات بمحفظتك بعد الإرسال</div>
+      </div>
+      <div class="fg">
+        <label class="fl">ملاحظات (اختياري)</label>
+        <input class="fi" id="m-notes" type="text" placeholder="أي ملاحظة إضافية"/>
+      </div>
+      <div class="verify-box" id="verify-monthly">
+        <div class="verify-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          راجع بياناتك
+        </div>
+        <div class="verify-data" id="verify-monthly-data"></div>
+        <div class="verify-q">هل البيانات صحيحة؟</div>
+        <div class="verify-btns">
+          <div class="vbtn-yes" onclick="confirmSend('monthly')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            صحيحة — أرسل الطلب
+          </div>
+          <div class="vbtn-no" onclick="cancelVerify('monthly')">تعديل</div>
+        </div>
+      </div>
+      <div id="btns-monthly">
+        <button class="btn-main" onclick="submitForm('monthly')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+          </svg>
+          إرسال طلب التفعيل
+        </button>
+        <a class="btn-support" href="https://t.me/AIVEX_Trade_Hub">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+          استفسار قبل الشراء
+        </a>
+      </div>
+    </div>
+    <div class="risk-note">
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+        <line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+      تأكد من إرسال USDT على الشبكة الصحيحة. التحويل على شبكة خاطئة قد يؤدي إلى فقدان المبلغ.
+    </div>
+  </div>
+
+  <!-- YEARLY VIP -->
+  <div class="plan-panel" id="panel-yearly">
+    <div class="ticket">
+      <div class="ticket-top">
+        <div class="vip-save-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+          </svg>
+          وفّر أكثر من 38%
+        </div>
+      </div>
+      <div class="price-display">
+        <span class="price-cur">$</span>
+        <span class="price-main">199</span>
+      </div>
+      <div class="price-per">سنوياً · اشتراك كامل · الدفع عبر USDT</div>
+      <div class="ticket-perf"><span class="ticket-notch l"></span><span class="ticket-notch r"></span></div>
+      <ul class="plan-feats">
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          سنة كاملة من الانضباط — كل ميزات الحماية والتحليل بلا انقطاع
+        </li>
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          جميع مميزات الخطة الشهرية
+        </li>
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          أولوية دعم VIP
+        </li>
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          تحديثات مستقبلية مجانية لمحرك الاستراتيجيات
+        </li>
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          وصول مبكر للمميزات الجديدة
+        </li>
+        <li>
+          <span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          توفير 38% مقارنة بالاشتراك الشهري
+        </li>
       </ul>
-      <a class="btn-buy gold" href="free-activation.html">اشتراك VIP سنوي 👑</a>
-      <a class="bsupport-inline" href="https://t.me/AIVEX_Trade_Hub" style="border-color:var(--gold-border)">استفسار قبل الشراء</a>
-      <div class="pc-pay">الدفع عبر USDT</div>
-      <div class="pc-risk">لا يوجد ضمان للربح. نتائج التداول تعتمد على قراراتك وإدارة رأس المال.</div>
     </div>
-  </div>
-</section>
 
-<!-- REVIEWS -->
-<section class="reviews-sec" id="reviews">
-  <div class="sr">
-    <div class="sec-eye">تجارب مستخدمين</div>
-    <h2 class="sec-title">آراء مختصرة من <span class="hi-teal">مستخدمين</span></h2>
+    <div id="form-yearly">
+      <div class="sec-label"><span>عنوان الإرسال — USDT</span></div>
+      <div class="addr-block">
+        <div class="addr-net">TRC20</div>
+        <div class="addr-val" onclick="copyAddr(this,'TV1KNGdghKAMq9m6DB6vTE1z1TDnvixZCv')">
+          <span>TV1KNGdghKAMq9m6DB6vTE1z1TDnvixZCv</span>
+          <span class="addr-copy-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div class="addr-block" style="margin-bottom:6px">
+        <div class="addr-net">BEP20</div>
+        <div class="addr-val" onclick="copyAddr(this,'0x23fb59b1fdfe19c122892ec8973e4438fe2e7fea')">
+          <span>0x23fb59b1fdfe19c122892ec8973e4438fe2e7fea</span>
+          <span class="addr-copy-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="sec-label"><span>بياناتك لإتمام التفعيل</span></div>
+      <div class="fg">
+        <label class="fl">الاسم <em>*</em></label>
+        <input class="fi" id="y-name" type="text" placeholder="اسمك الكامل"/>
+      </div>
+      <div class="fg">
+        <label class="fl">الإيميل <em>*</em></label>
+        <input class="fi" id="y-email" type="email" placeholder="example@email.com"/>
+        <div class="fhint">سيُستخدم لإنشاء حسابك في النظام</div>
+      </div>
+      <div class="fg">
+        <label class="fl">رقم TxID <em>*</em></label>
+        <input class="fi" id="y-txid" type="text" placeholder="رقم معرّف عملية الدفع من محفظتك"/>
+        <div class="fhint">موجود في تاريخ المعاملات بمحفظتك بعد الإرسال</div>
+      </div>
+      <div class="fg">
+        <label class="fl">ملاحظات (اختياري)</label>
+        <input class="fi" id="y-notes" type="text" placeholder="أي ملاحظة إضافية"/>
+      </div>
+      <div class="verify-box" id="verify-yearly">
+        <div class="verify-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          راجع بياناتك
+        </div>
+        <div class="verify-data" id="verify-yearly-data"></div>
+        <div class="verify-q">هل البيانات صحيحة؟</div>
+        <div class="verify-btns">
+          <div class="vbtn-yes" onclick="confirmSend('yearly')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            صحيحة — أرسل الطلب
+          </div>
+          <div class="vbtn-no" onclick="cancelVerify('yearly')">تعديل</div>
+        </div>
+      </div>
+      <div id="btns-yearly">
+        <button class="btn-main" onclick="submitForm('yearly')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+          </svg>
+          إرسال طلب التفعيل
+        </button>
+        <a class="btn-support" href="https://t.me/AIVEX_Trade_Hub">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+          استفسار قبل الشراء
+        </a>
+      </div>
+    </div>
+    <div class="risk-note">
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+        <line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+      تأكد من إرسال USDT على الشبكة الصحيحة. التحويل على شبكة خاطئة قد يؤدي إلى فقدان المبلغ.
+    </div>
   </div>
-  <div class="rev-grid">
-    <div class="rev-card sr">
-      <div class="rev-stars">★★★★★</div>
-      <p class="rev-text">حجم الصفقة صار واضح قبل الدخول. هذا وحده خلاني أهدأ وما أرفع المبلغ بعد خسارة بدون حساب.</p>
-      <div class="rev-author"><div class="rev-av">مج</div><div><div class="rev-name">مستخدم من جدة</div><div class="rev-date">منذ أسبوعين</div></div></div>
-    </div>
-    <div class="rev-card sr">
-      <div class="rev-stars">★★★★★</div>
-      <p class="rev-text">أكثر شيء فادني ترتيب الجلسة. صار عندي هدف وحد خسارة بدل ما أستمر لين أتعب أو أعوض.</p>
-      <div class="rev-author"><div class="rev-av">مم</div><div><div class="rev-name">متداول مبتدئ</div><div class="rev-date">منذ شهر</div></div></div>
-    </div>
-    <div class="rev-card sr">
-      <div class="rev-stars">★★★★★</div>
-      <p class="rev-text">النظام بسيط وواضح. أدخل رأس المال والنسبة وأعرف حجم الصفقة بدون حسبة يدوية كل مرة.</p>
-      <div class="rev-author"><div class="rev-av">مر</div><div><div class="rev-name">مستخدم من الرياض</div><div class="rev-date">منذ 3 أسابيع</div></div></div>
-    </div>
-    <div class="rev-card sr">
-      <div class="rev-stars">★★★★★</div>
-      <p class="rev-text">ما اعتبره شيء يضمن الربح، لكنه خلاني أشوف مخاطرتي بوضوح قبل الصفقة وهذا اللي كنت أحتاجه.</p>
-      <div class="rev-author"><div class="rev-av">مج</div><div><div class="rev-name">مشترك جديد</div><div class="rev-date">منذ أسبوع</div></div></div>
-    </div>
-    <div class="rev-card sr">
-      <div class="rev-stars">★★★★★</div>
-      <p class="rev-text">حتى مع الجوال قدرت أتابع الخطة وأراجع الجلسة. الفكرة مو معقدة وهذا أعجبني.</p>
-      <div class="rev-author"><div class="rev-av">مج</div><div><div class="rev-name">متداول يستخدم الجوال</div><div class="rev-date">منذ شهرين</div></div></div>
-    </div>
-    <div class="rev-card sr">
-      <div class="rev-stars">★★★★★</div>
-      <p class="rev-text">الفرق بالنسبة لي كان في السجل. لما شفت أرقامي فهمت إن المشكلة أحياناً في الاستمرار بعد الوصول للحد.</p>
-      <div class="rev-author"><div class="rev-av">مخ</div><div><div class="rev-name">مستخدم من الخليج</div><div class="rev-date">منذ شهر</div></div></div>
-    </div>
-  </div>
-</section>
 
-<!-- FAQ -->
-<section class="faq-sec">
-  <div class="sr">
-    <div class="sec-eye">أسئلة شائعة</div>
-    <h2 class="sec-title">كل ما تريد <span class="hi-gold">معرفته</span></h2>
+  <!-- SUCCESS -->
+  <div class="success-state" id="success-state">
+    <div class="success-icon-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="var(--teal)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12"/>
+      </svg>
+    </div>
+    <div class="success-title">تم إرسال طلبك!</div>
+    <div class="success-sub">تم فتح تيليجرام مع رسالتك الجاهزة.<br/>سيتم مراجعة بياناتك وتفعيل حسابك خلال 24 ساعة.</div>
+    <div class="success-badge">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+      </svg>
+      قيد المراجعة
+    </div>
+    <a class="btn-support" href="https://t.me/AIVEX_Trade_Hub">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+      </svg>
+      تواصل مع الدعم
+    </a>
+    <a class="btn-home" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="15 18 9 12 15 6"/>
+      </svg>
+      العودة للرئيسية
+    </a>
   </div>
-  <div class="faq-list">
-    <div class="fi sr"><button class="fq" onclick="tf(this)"><span>ما هو أيفيكس | AIVEX وكيف يعمل؟</span><span class="fq-icon">+</span></button><div class="fa">أيفيكس | AIVEX نظام عملي لإدارة المخاطر وتسجيل الجلسات. تدخل رأس المال ونسبة المخاطرة، فيساعدك على حساب حجم الصفقة ومتابعة حدود الجلسة ومراجعة الأداء.</div></div>
-    <div class="fi sr"><button class="fq" onclick="tf(this)"><span>مع أي منصات يعمل النظام؟</span><span class="fq-icon">+</span></button><div class="fa">أيفيكس | AIVEX لا يتصل بأي نظام تداول ولا يفتح صفقات بدلاً عنك. هو أداة مستقلة لحساب وإدارة الجلسة بجانب منصات الخيارات الثنائية.</div></div>
-    <div class="fi sr"><button class="fq" onclick="tf(this)"><span>كيف أحصل على الحساب المجاني؟</span><span class="fq-icon">+</span></button><div class="fa">الحساب المجاني هو نفس الوصول المدفوع للنظام. الفرق فقط في طريقة الحصول عليه: تفعيل مباشر، أو التسجيل عبر رابط وكالة أيفيكس في Pocket Option للحسابات الجديدة.</div></div>
-    <div class="fi sr"><button class="fq" onclick="tf(this)"><span>هل الدفع آمن؟ وما طرق الدفع المتاحة؟</span><span class="fq-icon">+</span></button><div class="fa">التفعيل يتم عبر الدعم من خلال صفحة التفعيل المخصصة، والدفع متاح حالياً عبر USDT فقط. بعد إتمام الدفع يتم تفعيل حسابك في النظام فوراً.</div></div>
-    <div class="fi sr"><button class="fq" onclick="tf(this)"><span>هل أيفيكس | AIVEX يعطي توصيات أو يفتح صفقات؟</span><span class="fq-icon">+</span></button><div class="fa">لا. أيفيكس لا يعطي إشارات شراء أو بيع، ولا يفتح صفقات، ولا يدير حسابك. دوره تنظيم قيمة الصفقة وحدود الجلسة وتسجيل الأداء فقط.</div></div>
-    <div class="fi sr"><button class="fq" onclick="tf(this)"><span>هل يوجد دعم فني بعد الشراء؟</span><span class="fq-icon">+</span></button><div class="fa">نعم، يوجد دعم واستفسارات عبر @TlabsaT، ويتم توجيهك لخطوات الشراء أو الاستلام بشكل مباشر.</div></div>
-  </div>
-</section>
 
-<!-- SUPPORT -->
-<section class="support-sec sr" id="support">
-  <div>
-    <div class="sec-eye">الدعم</div>
-    <h2 class="sec-title">عندك سؤال قبل القرار؟</h2>
-    <p class="sec-desc">راسلنا مباشرة للاستفسار عن التفعيل، التسجيل عبر الوكالة، أو طريقة استخدام أيفيكس | AIVEX.</p>
-  </div>
-  <a class="support-main-btn" href="https://t.me/AIVEX_Trade_Hub">💬 تواصل مع الدعم</a>
-</section>
+</div><!-- card -->
 
-<!-- CTA -->
-<div class="cta-block sr">
-  <h2>اختر خطتك وابدأ مع <span class="hi-gold">أيفيكس | 𝘼𝙄𝙑𝙀𝙓</span></h2>
-  <p>اشتراك شهري بـ$49 أو VIP سنوي بـ$199 — أو احصل عليه مجاناً عبر التسجيل من رابط وكالة أيفيكس في Pocket Option مع التوثيق والإيداع 200$ أو أكثر.</p>
-  <div class="cta-btns">
-    <a class="bprim" href="#pricing">🚀 ابدأ الاشتراك</a>
-    <a class="bsec" href="free-activation.html#free">احصل عليه مجانًا</a>
-    <a class="bsec" href="https://t.me/AIVEX_Trade_Hub" style="border-color:var(--bd2);color:var(--tx2)">💬 دعم واستفسار</a>
+<!-- HOW IT WORKS -->
+<div class="howto">
+  <div class="howto-head">
+    <div class="howto-eyebrow">دليل التفعيل</div>
+    <h2 class="howto-title">ثلاث خطوات <span>تفصلك عن الانضباط</span></h2>
+    <p class="howto-sub">أيفيكس يحسب، يحمي، ويقرر معك — لكن أولاً يحتاج تفعيلك. الخطوات بسيطة وسريعة</p>
+  </div>
+  <div class="howto-list">
+
+    <div class="howto-card">
+      <div class="howto-step-icon">
+        <!-- Step 1: Wallet / Send Money -->
+        <svg viewBox="0 0 24 24" fill="none" stroke="#0A0700" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="5" width="20" height="14" rx="2"/>
+          <line x1="2" y1="10" x2="22" y2="10"/>
+          <circle cx="16" cy="15" r="1" fill="#0A0700"/>
+        </svg>
+      </div>
+      <div class="howto-body">
+        <div class="howto-card-title">اختر خطتك وأرسل القيمة</div>
+        <div class="howto-card-desc">حدد الخطة المناسبة لك — شهري أو VIP سنوي — ثم أرسل المبلغ عبر USDT على الشبكة التي تختارها من العناوين الموثقة أعلاه.</div>
+        <div class="howto-warn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--gold2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+            <line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+          </svg>
+          <span><b>تنبيه مهم:</b> اعتمد فقط على العناوين الظاهرة داخل هذه الصفحة. لا تتعامل مع أي عنوان يصلك من مصدر خارج النظام.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="howto-card">
+      <div class="howto-step-icon">
+        <!-- Step 2: Form / Submit -->
+        <svg viewBox="0 0 24 24" fill="none" stroke="#0A0700" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+          <line x1="16" y1="13" x2="8" y2="13"/>
+          <line x1="16" y1="17" x2="8" y2="17"/>
+        </svg>
+      </div>
+      <div class="howto-body">
+        <div class="howto-card-title">أرسل بياناتك ورقم العملية</div>
+        <div class="howto-card-desc">بعد الإرسال، أدخل اسمك وإيميلك ورقم TxID في النموذج، وتأكد من مراجعتها قبل الإرسال — هذه البيانات هي ما يربط طلبك بحسابك.</div>
+      </div>
+    </div>
+
+    <div class="howto-card">
+      <div class="howto-step-icon">
+        <!-- Step 3: Bolt / Activate -->
+        <svg viewBox="0 0 24 24" fill="none" stroke="#0A0700" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+        </svg>
+      </div>
+      <div class="howto-body">
+        <div class="howto-card-title">فعّل حسابك وابدأ بانضباط</div>
+        <div class="howto-card-desc">فريقنا يراجع طلبك ويفعّل حسابك خلال ساعات قليلة. من لحظة التفعيل، محرك الاستراتيجيات والحماية التلقائية والمساعد الذكي يعملون معك في كل صفقة.</div>
+      </div>
+    </div>
+
   </div>
 </div>
 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-brand">
-    <img alt="أيفيكس AIVEX" src="https://i.postimg.cc/J45gyPpT/20260626-085952.jpg"/>
-    <div class="footer-brand-name">
-      <div class="ar">أيفيكس</div>
-      <div class="en">𝘼𝙄𝙑𝙀𝙓 © 2026</div>
-    </div>
-  </div>
-  <div class="footer-soc">
-    <a href="free-activation.html" title="دخول النظام" style="font-family:'Orbitron',sans-serif;font-size:9px;font-weight:900;letter-spacing:1px">APP</a>
-    <a aria-label="يوتيوب" href="https://www.youtube.com/@Tlabsa" title="يوتيوب"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4L15.8 12l-6.2 3.6Z"/></svg></a>
-    <a aria-label="تيليجرام" href="https://t.me/AIVEX_Trade_Hub" title="الدعم"><svg viewBox="0 0 24 24"><path d="M22 2.6 1.7 10.4c-1.4.6-1.4 1.4-.3 1.7l5.2 1.6 2 6.2c.3.9.5 1.2 1 1.2.7 0 1-.3 1.4-.7l3.4-3.3 5.6 4.1c1 .6 1.8.3 2.1-1l3.8-17.9c.4-1.5-.6-2.2-1.9-1.7ZM7.4 13.3l11.8-7.4c.6-.4 1.1-.2.7.2L9.8 15.2l-.4 4.1-2-6Z"/></svg></a>
-    <a aria-label="تيك توك" href="https://www.tiktok.com/@tlab_sa" title="تيك توك"><svg viewBox="0 0 24 24"><path d="M16.6 2c.4 3 2.1 4.8 5.1 5v4.1a8.8 8.8 0 0 1-5-1.5v7.2c0 4-2.7 6.7-6.7 6.7-3.6 0-6.6-2.6-6.6-6.3 0-4.2 3.5-6.8 7.8-6.1v4.3c-1.7-.5-3.3.4-3.3 1.9 0 1.3 1 2.1 2.2 2.1 1.5 0 2.3-.9 2.3-2.7V2h4.2Z"/></svg></a>
-    <a aria-label="إنستقرام" href="https://www.instagram.com/tlab_sa/" title="إنستقرام"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.8A4.2 4.2 0 1 1 12 16.2 4.2 4.2 0 0 1 12 7.8Zm0 2A2.2 2.2 0 1 0 12 14.2 2.2 2.2 0 0 0 12 9.8ZM17.4 6.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg></a>
-  </div>
-  <div class="footer-note">أيفيكس | AIVEX لا يقدم توصيات مالية ولا يضمن الأرباح · تداول بمسؤولية</div>
-</footer>
-
-</div><!-- end page-wrap -->
-
-<!-- FLOAT BUTTON -->
-<a aria-label="استفسار عبر تيليجرام" class="float-btn" href="https://t.me/AIVEX_Trade_Hub">💬 استفسار</a>
-
+</div><!-- wrap -->
 <script>
-/* ── FAQ toggle ── */
-function tf(btn){
-  const item=btn.closest('.fi');
-  const was=item.classList.contains('open');
-  document.querySelectorAll('.fi').forEach(i=>i.classList.remove('open'));
-  if(!was)item.classList.add('open');
+function switchPlan(p){
+  document.querySelectorAll('.ptab').forEach((t,i)=>t.classList.toggle('active',(i===0&&p==='monthly')||(i===1&&p==='yearly')));
+  document.getElementById('panel-monthly').classList.toggle('active',p==='monthly');
+  document.getElementById('panel-yearly').classList.toggle('active',p==='yearly');
 }
-
-/* ── Scroll reveal ── */
-const obs=new IntersectionObserver(entries=>{
-  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')});
-},{threshold:0.07});
-document.querySelectorAll('.sr').forEach(el=>obs.observe(el));
-
-/* ── Particles ── */
-(function(){
-  const container=document.getElementById('particles');
-  if(!container)return;
-  const count=18;
-  for(let i=0;i<count;i++){
-    const p=document.createElement('div');
-    p.className='particle';
-    const size=Math.random()*3+1.5;
-    p.style.cssText=`
-      width:${size}px;height:${size}px;
-      left:${Math.random()*100}%;
-      animation-duration:${Math.random()*14+10}s;
-      animation-delay:${Math.random()*10}s;
-    `;
-    container.appendChild(p);
-  }
-})();
+function copyAddr(el,addr){
+  navigator.clipboard.writeText(addr).then(()=>{
+    const sp=el.querySelector('span:first-child');
+    const orig=sp.textContent;
+    sp.textContent='✓ تم النسخ!';
+    el.classList.add('addr-copied');
+    setTimeout(()=>{sp.textContent=orig;el.classList.remove('addr-copied')},2200);
+  });
+}
+function submitForm(plan){
+  const p=plan==='monthly';
+  const name=document.getElementById(p?'m-name':'y-name').value.trim();
+  const email=document.getElementById(p?'m-email':'y-email').value.trim();
+  const txid=document.getElementById(p?'m-txid':'y-txid').value.trim();
+  const notes=document.getElementById(p?'m-notes':'y-notes').value.trim();
+  if(!name||!email||!txid){alert('يرجى ملء جميع الحقول المطلوبة (*)');return;}
+  const planLabel=plan==='monthly'?'شهري — $49':'VIP سنوي — $199';
+  const html=`<b>الاسم:</b> ${name}<br><b>الإيميل:</b> ${email}<br><b>الخطة:</b> ${planLabel}<br><b>TxID:</b> ${txid}${notes?'<br><b>ملاحظات:</b> '+notes:''}`;
+  document.getElementById('verify-'+plan+'-data').innerHTML=html;
+  document.getElementById('verify-'+plan).classList.add('show');
+  document.getElementById('btns-'+plan).style.display='none';
+}
+function cancelVerify(plan){
+  document.getElementById('verify-'+plan).classList.remove('show');
+  document.getElementById('btns-'+plan).style.display='';
+}
+function confirmSend(plan){
+  const p=plan==='monthly';
+  const name=document.getElementById(p?'m-name':'y-name').value.trim();
+  const email=document.getElementById(p?'m-email':'y-email').value.trim();
+  const txid=document.getElementById(p?'m-txid':'y-txid').value.trim();
+  const notes=document.getElementById(p?'m-notes':'y-notes').value.trim();
+  const planLabel=plan==='monthly'?'شهري — $49':'VIP سنوي — $199';
+  const msg=`🟡 طلب اشتراك — أيفيكس | AIVEX\n\n👤 الاسم: ${name}\n📧 الإيميل: ${email}\n📦 الخطة: ${planLabel}\n🔑 TxID: ${txid}${notes?'\n📝 ملاحظات: '+notes:''}\n\nأرجو التفعيل، شكراً`;
+  window.open('https://t.me/AIVEX_Trade_Hub?text='+encodeURIComponent(msg),'_blank');
+  document.querySelectorAll('.plan-panel').forEach(p=>p.style.display='none');
+  document.querySelector('.plan-tabs').style.display='none';
+  document.getElementById('success-state').classList.add('show');
+}
 </script>
 </body>
 </html>
